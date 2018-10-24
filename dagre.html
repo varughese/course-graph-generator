@@ -1,0 +1,87 @@
+<!doctype html>
+
+<meta charset="utf-8">
+<title>Dagre Interactive Demo</title>
+
+<script src="https://d3js.org/d3.v4.js"></script>
+<script src="https://unpkg.com/dagre-d3@0.6.1/dist/dagre-d3.js"></script>
+<style>
+g > rect {
+fill: #00ffd0;
+}
+
+text {
+font-weight: 300;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serf;
+font-size: 14px;
+}
+
+.node rect {
+stroke: #999;
+fill: #fff;
+stroke-width: 1.5px;
+}
+
+.edgePath path {
+stroke: #333;
+stroke-width: 1.5px;
+}
+	</style>
+<body>
+
+
+<svg width=10000 height=6000>
+  <g/>
+</svg>
+
+<script>
+// Input related code goes here
+
+var getJSON = function(url, callback) {
+var xhr = new XMLHttpRequest();
+xhr.open('GET', url, true);
+xhr.responseType = 'json';
+xhr.onload = function() {
+var status = xhr.status;
+if (status === 200) {
+callback(null, xhr.response);
+} else {
+callback(status, xhr.response);
+}
+};
+xhr.send();
+};
+
+getJSON("https://api.myjson.com/bins/1fxdsc", function(err, data) {
+	createGraph(data)
+})
+
+var g = new dagreD3.graphlib.Graph()
+.setGraph({})
+.setDefaultEdgeLabel(function() { return {}; });
+
+function createGraph(data) {
+data.nodes.forEach(function(node) {
+	g.setNode(node.id, node);
+});
+data.links.forEach(function(link) {
+	g.setEdge(link.source, link.target);
+})
+// Create the renderer
+var render = new dagreD3.render();
+
+// Set up an SVG group so that we can translate the final graph.
+var svg = d3.select("svg"),
+svgGroup = svg.append("g");
+
+// Run the renderer. This is what draws the final graph.
+render(d3.select("svg g"), g);
+
+// Center the graph
+var xCenterOffset = (svg.attr("width") - g.graph().width) / 2;
+svgGroup.attr("transform", "translate(" + xCenterOffset + ", 20)");
+svg.attr("height", g.graph().height + 40);
+}
+
+
+</script>
