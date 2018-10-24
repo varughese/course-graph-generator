@@ -33,7 +33,7 @@ stroke-width: 1.5px;
 <svg width=10000 height=6000>
   <g/>
 </svg>
-
+<p id="description"></p>
 <script>
 // Input related code goes here
 
@@ -61,27 +61,32 @@ var g = new dagreD3.graphlib.Graph()
 .setDefaultEdgeLabel(function() { return {}; });
 
 function createGraph(data) {
-data.nodes.forEach(function(node) {
-	g.setNode(node.id, node);
-});
-data.links.forEach(function(link) {
-	g.setEdge(link.source, link.target);
-})
-// Create the renderer
-var render = new dagreD3.render();
+	data.nodes.forEach(function(node) {
+		g.setNode(node.id, node);
+	});
+	data.links.forEach(function(link) {
+		g.setEdge(link.source, link.target);
+	})
+	// Create the renderer
+	var render = new dagreD3.render();
 
-// Set up an SVG group so that we can translate the final graph.
-var svg = d3.select("svg"),
-svgGroup = svg.append("g");
+	// Set up an SVG group so that we can translate the final graph.
+	var svg = d3.select("svg"),
+	svgGroup = svg.append("g");
 
-// Run the renderer. This is what draws the final graph.
-render(d3.select("svg g"), g);
+	// Run the renderer. This is what draws the final graph.
+	render(d3.select("svg g"), g);
 
-// Center the graph
-var xCenterOffset = (svg.attr("width") - g.graph().width) / 2;
-svgGroup.attr("transform", "translate(" + xCenterOffset + ", 20)");
-svg.attr("height", g.graph().height + 40);
+	// Center the graph
+	var xCenterOffset = (svg.attr("width") - g.graph().width) / 2;
+	svgGroup.attr("transform", "translate(" + xCenterOffset + ", 20)");
+	svg.attr("height", g.graph().height + 40);
+
+	svg.selectAll("g.node").on("click", function (d) {
+		var node = g.node(d);
+		document.getElementById("description").innerHTML = node.description;
+	})
+
 }
-
 
 </script>
