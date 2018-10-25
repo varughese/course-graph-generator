@@ -5,9 +5,16 @@
 
 <script src="https://d3js.org/d3.v4.js"></script>
 <script src="https://unpkg.com/dagre-d3@0.6.1/dist/dagre-d3.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+ crossorigin="anonymous">
 <style>
 g > rect {
 fill: #00ffd0;
+}
+
+
+svg {
+	border: 1px solid black;
 }
 
 text {
@@ -29,11 +36,30 @@ stroke-width: 1.5px;
 	</style>
 <body>
 
+<div class="container-fluid">
 
-<svg width=10000 height=6000>
-  <g/>
+<div class="row justify-content-center">
+<div class="col-md-auto">
+<svg width=900 height=900>
+	<g/>
 </svg>
+</div>
+</div>
+
+<div class="col-sm-12">
 <p id="description"></p>
+</div>
+</div>
+<div class="row">
+	<div class="col-sm-12">
+		<button level="0" class="btn btn-primary level-select">Core</button>
+		<button level="1" class="btn btn-primary level-select">Electives</button>
+		<button level="2" class="btn btn-primary level-select">Masters</button>
+		<button level="3" class="btn btn-primary level-select">PhD</button>
+	</div>
+</div>
+
+</div>
 <script>
 // Input related code goes here
 
@@ -56,23 +82,76 @@ getJSON("https://api.myjson.com/bins/1fxdsc", function(err, data) {
 	createGraph(data)
 })
 
-var g = new dagreD3.graphlib.Graph()
-.setGraph({})
-.setDefaultEdgeLabel(function() { return {}; });
+function calcCourseType(id) {
+	if(id.indexOf("CS-") !== 0) return "?";
+	var courseNo = Number(id.substring(3));
+	if(courseNo < 400) return 0
+	else if(courseNo < 500) return 1
+	else if(courseNo < 1000) return 2
+	else if(courseNo == 1501 || courseNo == 1502 || courseNo == 1550) return 3
+	else if(courseNo < 1600) return 4
+	else if (courseNo < 2000) return 5
+	else if(courseNo < 2100) return 6
+	else if(courseNo < 3000) return 7
+	else return 8
+}
 
-function createGraph(data) {
+var levelMap = ["Basic", "Core", "Special", "Upper Core", "Elective", "Upper Elective", "Grad", "Upper Grad", "PhD"]
+
+
+function levelFilterMaker(range) {
+	return function(level) {
+		return range[0] <= level && level <= range[1];
+	}
+}
+
+var levelCheckerFns = [
+	[1, 3],
+	[3, 5],
+	[5, 7],
+	[7, 8]
+].map(levelFilterMaker)
+
+
+var data; 
+var courseMap = {};
+
+function createGraph(_data) {
+	data = _data;
+	
 	data.nodes.forEach(function(node) {
-		g.setNode(node.id, node);
+		node.courseType = calcCourseType(node.id)
+		courseMap[node.id] = node.courseType;
 	});
-	data.links.forEach(function(link) {
-		g.setEdge(link.source, link.target);
-	})
+
+	drawGraph();
 	// Create the renderer
+}
+
+var levelId = 0;
+
+function drawGraph() {
 	var render = new dagreD3.render();
+	var g = new dagreD3.graphlib.Graph()
+		.setGraph({ rankdir: "TB", edgesep: 30, ranksep: 120 })
+		.setDefaultEdgeLabel(function () { return {}; });
 
 	// Set up an SVG group so that we can translate the final graph.
-	var svg = d3.select("svg"),
+	var svg = d3.select("svg");
+
+	svg.selectAll("*").remove();
 	svgGroup = svg.append("g");
+
+	var correctLevel = levelCheckerFns[levelId];
+
+	data.nodes.forEach(function (node) {
+		if (correctLevel(node.courseType))
+			g.setNode(node.id, node);
+	});
+	data.links.forEach(function (link) {
+		if (correctLevel(courseMap[link.source]) && correctLevel(courseMap[link.target]))
+			g.setEdge(link.source, link.target);
+	})
 
 	// Run the renderer. This is what draws the final graph.
 	render(d3.select("svg g"), g);
@@ -86,7 +165,26 @@ function createGraph(data) {
 		var node = g.node(d);
 		document.getElementById("description").innerHTML = node.description;
 	})
+	var zoom = d3.zoom().on("zoom", function () {
+		inner.attr("transform", d3.event.transform);
+	});
+	svg.call(zoom);
 
+	var inner = svg.select("g");
+	var initialScale = 0.75;
+	svg.call(zoom.transform, d3.zoomIdentity.translate((svg.attr("width") - g.graph().width * initialScale) / 2, 20).scale(initialScale));
+
+	svg.attr('height', g.graph().height * initialScale + 40);
 }
+
+document.querySelectorAll(".level-select").forEach(function(btn) {
+	btn.addEventListener("click", function (event) {
+		var newLevelId = Number(event.target.getAttribute("level"));
+		if(newLevelId != levelId) {
+			levelId = newLevelId;
+			drawGraph();
+		}
+	})
+})
 
 </script>
