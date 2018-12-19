@@ -23,8 +23,13 @@ class Professor():
 		return "<RMP Teacher {}>".format(self.last_name)
 
 
+f= open("saved.txt","w+")
 for letter in 'abcdefghijklmnopqrstuvwyxz':
+	f.write(letter)
+	print("Getting all " + letter)
 	res = requests.get(URL.format(letter))
 	profs = [Professor(d) for d in res.json()["response"]["docs"]]
 	for p in profs:
 		profs_ref.child(str(p.id)).set(p.__dict__)
+	
+f.close()
