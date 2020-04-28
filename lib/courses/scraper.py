@@ -4,8 +4,8 @@ from multiprocessing import Pool, Manager
 import sys   
 import os
 
-# We have to do this because the beautiful soup xml trees are big
-sys.setrecursionlimit(10000) 
+# # We have to do this because the beautiful soup xml trees are big
+# sys.setrecursionlimit(10000) 
 
 class Course:
 	def __init__(self, id, className, major, classNumber, prereq, recitation, credit, description, coreq):
@@ -102,7 +102,7 @@ def scrape_term(term):
 	output_path_checkpoints = os.path.join(output_path_term, "checkpoints.json")
 	output_path_course_data = os.path.join(output_path_term, "course_data.json")
 	checkpoints = {}
-	if os.path.isfile(output_path_checkpoints) and not USE_CHECKPOINTS:
+	if os.path.isfile(output_path_checkpoints) and USE_CHECKPOINTS:
 		with open(output_path_checkpoints, 'r') as f:
 			checkpoints = json.load(f)
 
@@ -124,6 +124,6 @@ def scrape_term(term):
 		with open(output_path_course_data, 'w') as f:
 			f.write(json.dumps(data, default=serialize_course, sort_keys=True, indent=4))
 
-USE_CHECKPOINTS = False
+USE_CHECKPOINTS = True # Checkpoints save the subjects into checkpoints.json so it does not have to rescrape
 SUBJECTS_TO_SCRAPE = course_util.undergrad_subjects
-scrape_term(2211)
+scrape_term(2201)

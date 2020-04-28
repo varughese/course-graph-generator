@@ -1,285 +1,4 @@
 {
-    "ADMJ": {
-        "ADMJ0100": {
-            "className": "SOCIETY AND THE LAW",
-            "classNumber": "0100",
-            "coreq": [],
-            "credits": "3 units",
-            "description": "Every society regulates behavior and the means, i.e., either informal or formal, with which this is done varies according to level of social development.  This course examines the regulation of behavior in primitive, transitional, and modern societies and traces the development of law and legal systems and their relationship to different characteristics of social development.  We will examine legal jurisprudence and the application of the principles of these philosophies and explore how they have shaped legal action.",
-            "id": "ADMJ0100",
-            "major": "ADMJ",
-            "prereq": [],
-            "recitation": false
-        },
-        "ADMJ0500": {
-            "className": "INTRODUCTION TO ADMINISTRATION OF JUSTICE",
-            "classNumber": "0500",
-            "coreq": [],
-            "credits": "3 units",
-            "description": "Introductory course designed to provide the student with basic information on the criminal justice system.  Views the criminal justice system as consisting of six sub-systems; police, prosecution, courts, corrections, probation and parole.  Explores law and society in general, the history, structure, function and contemporary problems in each major sub-system.  Also explores the trend of the criminal justice system and the directions and implications involved.",
-            "id": "ADMJ0500",
-            "major": "ADMJ",
-            "prereq": [],
-            "recitation": false
-        },
-        "ADMJ0600": {
-            "className": "INTRODUCTION TO CRIMINOLOGY",
-            "classNumber": "0600",
-            "coreq": [],
-            "credits": "3 units",
-            "description": "This course provides an overview of the study of the causes and social responses to crime.  It examines legal definitions and elements of crime; surveys major categories of crime, i.e., Predatory and non-predatory acts; reviews major measures of crime; identifies major correlates and theories of crime; differentiates types of offenders and evaluates the working of the criminal justice system.",
-            "id": "ADMJ0600",
-            "major": "ADMJ",
-            "prereq": [],
-            "recitation": false
-        },
-        "ADMJ1100": {
-            "className": "CRIME SCENE INVESTIGATION",
-            "classNumber": "1100",
-            "coreq": [],
-            "credits": "3 units",
-            "description": "This course provides students with an overview of crime scene investigative issues and problems, as well as techniques used in the collection, preservation, analysis, and utilization of physical and testimonial evidence in criminal prosecutions. Topics include forensic photography, crime scene collection equipment, canvassing, and interrogation techniques in investigations of robbery, burglary, assault, and homicide crimes.",
-            "id": "ADMJ1100",
-            "major": "ADMJ",
-            "prereq": [],
-            "recitation": false
-        },
-        "ADMJ1115": {
-            "className": "CRIMINALISTICS",
-            "classNumber": "1115",
-            "coreq": [],
-            "credits": "3 units",
-            "description": "This course introduces students to the scientific tools of analysis of crime scene evidence.  Topics include toxicology, hair, fiber, blood, DNA, fingerprint, and firearms analysis, as well as cause of death issues such as sexual homicides, suicides, and assisted suicides, drug and carbon monoxide poisoning, accidental deaths, and blunt force trauma deaths.  The class consists of integrated lecture and lab each week.  The laboratory activities require only basic calculations.",
-            "id": "ADMJ1115",
-            "major": "ADMJ",
-            "prereq": [],
-            "recitation": false
-        },
-        "ADMJ1118": {
-            "className": "CRIMINALISTICS LAB",
-            "classNumber": "1118",
-            "coreq": [],
-            "credits": "1 units",
-            "description": "This is an optional lab for students enrolled in administration of justice 1115.  Designed for non-science majors, the lab will introduce students to the basic principles of chemistry, biology, and physics as they are used on a daily basis in criminal investigations.  Topics include:  identification of hair and fibers, DNA, and chromatography.  These and other techniques are then applied to a simulated drug bust, a kidnapping case, and a suicide/homicide investigation.",
-            "id": "ADMJ1118",
-            "major": "ADMJ",
-            "prereq": [
-                "CREQ: ADMJ 1115"
-            ],
-            "recitation": false
-        },
-        "ADMJ1200": {
-            "className": "INTRODUCTION TO LAW ENFORCEMENT",
-            "classNumber": "1200",
-            "coreq": [],
-            "credits": "3 units",
-            "description": "Introduces various historical and philosophical approaches to law enforcement.  Course explores origins of policing; philosophical positions on nature of law enforcement and its justification; comparisons of various types of policing in different historical epoch; and emergence of bureaucratized urban force.  Topics include development of law enforcement from ancient times with emphasis on philosophical approaches to policing in U.S.; Introduction to constitutional issues and problems.",
-            "id": "ADMJ1200",
-            "major": "ADMJ",
-            "prereq": [],
-            "recitation": false
-        },
-        "ADMJ1210": {
-            "className": "JUVENILE DELINQUENCY",
-            "classNumber": "1210",
-            "coreq": [],
-            "credits": "3 units",
-            "description": "Provides an overview of the field of juvenile delinquency. Topics covered include theories and research on causes of juvenile delinquency; law enforcement practices encountered in attempts to control delinquency; juvenile treatment under law; correctional philosophy and practices in juvenile justice; and impacts of juvenile criminality upon the rest of society.  Students emerge from the course with knowledge of causes, prevention, treatment, and control of juvenile delinquency and should be prepared to move into more detailed study of this subject.",
-            "id": "ADMJ1210",
-            "major": "ADMJ",
-            "prereq": [],
-            "recitation": false
-        },
-        "ADMJ1220": {
-            "className": "DEVIANCE AND THE LAW",
-            "classNumber": "1220",
-            "coreq": [],
-            "credits": "3 units",
-            "description": "This course will examine the concept of deviant behavior and how departing from socially acceptable norms in legal, social and institutional settings sparks certain emotional reactions from those who encounter or experience it.  The course will also, identify what is deviancy, types of deviant behavior, who engages in it, what causes it and how in certain circumstances it violates the law by considering the characteristics of the deviant person from both a socio-cultural and historical perspective. In addition, it will outline various theories to deviant behavior.",
-            "id": "ADMJ1220",
-            "major": "ADMJ",
-            "prereq": [],
-            "recitation": false
-        },
-        "ADMJ1225": {
-            "className": "THE JUVENILE JUSTICE PROCESS",
-            "classNumber": "1225",
-            "coreq": [],
-            "credits": "3 units",
-            "description": "Presentation, discussion and analysis of the nature of the juvenile justice process, legal steps required in processing juveniles, nature and operation of juvenile justice institutions, interrelationships between parts of the system, and problems and prospects for their solution.",
-            "id": "ADMJ1225",
-            "major": "ADMJ",
-            "prereq": [],
-            "recitation": false
-        },
-        "ADMJ1230": {
-            "className": "WHITE COLLAR CRIME",
-            "classNumber": "1230",
-            "coreq": [],
-            "credits": "3 units",
-            "description": "This course examines the meaning, varieties, and extent of \"white collar crime\" in America.  It investigates the developmental history of this concept, theories of white collar crime causation, specific types of white collar crime, empirical and theoretical controversies surrounding white collar crime, and the probable future directions for this type of criminal behavior.",
-            "id": "ADMJ1230",
-            "major": "ADMJ",
-            "prereq": [],
-            "recitation": false
-        },
-        "ADMJ1234": {
-            "className": "INTRODUCTION TO CYBERCRIME",
-            "classNumber": "1234",
-            "coreq": [],
-            "credits": "3 units",
-            "description": "Traditionally, crime has taken place in the physical world.  Since the dawn of the internet, criminal activities on the web have been continually increasing.  Crime is no longer restricted to a town, city, state or even country as the internet crime transcends all different types of jurisdictions.",
-            "id": "ADMJ1234",
-            "major": "ADMJ",
-            "prereq": [],
-            "recitation": false
-        },
-        "ADMJ1235": {
-            "className": "ORGANIZED CRIME",
-            "classNumber": "1235",
-            "coreq": [],
-            "credits": "3 units",
-            "description": "This course is designed to examine the history of organized crime not only within the United States, but from an international perspective as well.  The emergence of \"non-traditional\" groups which are competing for power and profits will be examined, as well as the alliances between various criminal groups that have evolved, resulting in the phenomenon of \"transnational\" organized crime.  Those \"non-traditional\" groups include, but are not necessarily limited to, domestic and international terrorist organizations, the reasons for their development as well as the perceived risk to American citizens both in a domestic environment and abroad.  Neither organized crime nor a terrorist organization can be effectively discussed without integrating the evolution of US drug policy, which will be included.  Finally, the various government tactics implemented to counter the threats mentioned herein as well as the impact on the private sector will be integrated into lectures throughout the program.",
-            "id": "ADMJ1235",
-            "major": "ADMJ",
-            "prereq": [],
-            "recitation": false
-        },
-        "ADMJ1236": {
-            "className": "INTERNATIONAL ORGANIZED CRIME",
-            "classNumber": "1236",
-            "coreq": [],
-            "credits": "3 units",
-            "description": "Organized crime is no longer confined to a few countries such as Italy, the United States, and Japan.  During the 1980s and 1990s it has become much more pervasive, and has had a major impact in countries in transition; turkey, Mexico, and South Africa.  This course looks at the dynamics of organized crime, explains why it develops in particular countries, the various forms it takes, and the responses of law enforcement agencies and international institutions.",
-            "id": "ADMJ1236",
-            "major": "ADMJ",
-            "prereq": [],
-            "recitation": false
-        },
-        "ADMJ1238": {
-            "className": "CYBER SECURITY, LAW, AND MONEY LAUNDERING",
-            "classNumber": "1238",
-            "coreq": [],
-            "credits": "3 units",
-            "description": "This course will examine the scope of cyber-crime and its impact on today's system of criminal justice.  Similarly, the vulnerabilities to cyber-assault will be examined.  Topics include the use of computer technology to commit crimes such as \"hacking\" and other computer based criminology, as well as means of committing more traditional violations of law.  Also included will be an analysis of the legal considerations facing law enforcement and other cyber-security professionals who are tasked with meeting the challenges of discovering, investigating and prosecuting cyber-crimes.  Since our economy and security enterprises are so dependent on the electronic dissemination of information, effective measures to secure this vital resource will be explored.  Given the fact that funds are transferred electronically, the electronic transmission of finances will be examined as well as the more basic methods of raising funds and laundering same to advance terrorist activities throughout the world.",
-            "id": "ADMJ1238",
-            "major": "ADMJ",
-            "prereq": [],
-            "recitation": false
-        },
-        "ADMJ1242": {
-            "className": "GENDER, RACE, CLASS, AND CRIME",
-            "classNumber": "1242",
-            "coreq": [],
-            "credits": "3 units",
-            "description": "Gender, race and class are overlapping categories of experience that affect all aspects of life.  There is perhaps no other context in which the effects of gender, race and class are as acutely evident as in the criminal justice system. That is, the people who are processed through the criminal justice system are disproportionately male, nonwhite, and from the lower classes.  This class is designed to examine the cumulative and interlocking effects of gender, race, and class on crime.",
-            "id": "ADMJ1242",
-            "major": "ADMJ",
-            "prereq": [],
-            "recitation": false
-        },
-        "ADMJ1265": {
-            "className": "ADVANCED TOPICS IN CRIMINOLOGY",
-            "classNumber": "1265",
-            "coreq": [],
-            "credits": "3 units",
-            "description": "This course is an advanced course that examines specific and controversial issues related to crime and the criminal justice system.  While the exact topics change from year to year, those that have been studied include:  the death penalty, mandatory sentencing, jail and prison overcrowding, victims' rights, and white collar crime.",
-            "id": "ADMJ1265",
-            "major": "ADMJ",
-            "prereq": [],
-            "recitation": false
-        },
-        "ADMJ1300": {
-            "className": "INTRODUCTION TO CORRECTIONS",
-            "classNumber": "1300",
-            "coreq": [],
-            "credits": "3 units",
-            "description": "Introduces various historical and philosophical approaches to corrections.  Course explores origins of correctional institutions and evolution of correctional practices in contemporary society.  Emphasis on modifications of institutional practices in contemporary society and development of new strategies as alternatives to incarceration.  Various methodologies applicable to homogeneous and heterogeneous population groupings of offenders are examined taking into account individual characteristics and differences.",
-            "id": "ADMJ1300",
-            "major": "ADMJ",
-            "prereq": [],
-            "recitation": false
-        },
-        "ADMJ1400": {
-            "className": "INTRODUCTION TO CRIMINAL LAW",
-            "classNumber": "1400",
-            "coreq": [],
-            "credits": "3 units",
-            "description": "Acquaints the student with basic principles of criminal law derived from our English common law heritage and from more recent statutory penal code revisions in the American states.  Course examines the meaning of crime and of criminal complicity and conspiracy; sentencing alternatives; and the decriminalization of some crimes.",
-            "id": "ADMJ1400",
-            "major": "ADMJ",
-            "prereq": [],
-            "recitation": false
-        },
-        "ADMJ1410": {
-            "className": "INTRODUCTION TO CRIMINAL PROCEDURE",
-            "classNumber": "1410",
-            "coreq": [],
-            "credits": "3 units",
-            "description": "This course examines the procedural effects of criminal law, including constitutional rights, state criminal procedure, and appellate decisions and rules.",
-            "id": "ADMJ1410",
-            "major": "ADMJ",
-            "prereq": [],
-            "recitation": false
-        },
-        "ADMJ1425": {
-            "className": "PRINCIPLES OF HOMELAND SECURITY",
-            "classNumber": "1425",
-            "coreq": [],
-            "credits": "3 units",
-            "description": "This course examines the new problems facing our domestic public service and justice personnel -- the borderless world of globalization and technology.  Attention is paid to problems of terrorism, incident management systems, violence incident response procedures, planning for violence, changing federal, state, and local roles and response planning, weapons of mass effects, mass casualty programs, crime scene operations, technology and emergency responses, the evolving role of the intelligence community, and government, private, and non-government security issues.",
-            "id": "ADMJ1425",
-            "major": "ADMJ",
-            "prereq": [],
-            "recitation": false
-        },
-        "ADMJ1450": {
-            "className": "CRITICAL ISSUES IN CRIMINAL JUSTICE",
-            "classNumber": "1450",
-            "coreq": [],
-            "credits": "3 units",
-            "description": "Analyzes contemporary issues relating to policies, goals, and procedures of all criminal justice agencies.  Topics covered include trends and controversies regarding law enforcement activities, the changing role of police, police court controversies, standards and goals, future trends in criminal justice, manpower utilization, organizational changes, long-range planning, and projections for future of police agencies.",
-            "id": "ADMJ1450",
-            "major": "ADMJ",
-            "prereq": [],
-            "recitation": false
-        },
-        "ADMJ1900": {
-            "className": "PRESERVICE INTERNSHIP",
-            "classNumber": "1900",
-            "coreq": [],
-            "credits": "1 - 6 units",
-            "description": "This course is a supervised placement with specific agencies in the criminal justice system and is offered through the College of General Studies for student interns in the CGS Administration of Justice and Legal Studies majors and minors. Students enrolled in this internship engage in formal and reflective writing, journaling, and analysis about their work experience and how it relates to their academic and career pursuits. Class workshops and group discussions provide further opportunities for debriefing and consolidation of ideas and skills. This is a hybrid course with three in-person workshops and faculty authorization is required. Students must be registered for the internship course at the time they are completing the internship in order to earn credit.",
-            "id": "ADMJ1900",
-            "major": "ADMJ",
-            "prereq": [],
-            "recitation": false
-        },
-        "ADMJ1901": {
-            "className": "INDEPENDENT STUDY",
-            "classNumber": "1901",
-            "coreq": [],
-            "credits": "0",
-            "description": "",
-            "id": "ADMJ1901",
-            "major": "ADMJ",
-            "prereq": [],
-            "recitation": false
-        }
-    },
-    "ADMPS": {
-        "ADMPS1001": {
-            "className": "SOCIAL FOUNDATIONS OF EDUCATION",
-            "classNumber": "1001",
-            "coreq": [],
-            "credits": "3 units",
-            "description": "Students in the course have the opportunity to develop a foundational understanding of the dynamics of schooling in society by addressing the cultural aspects that underlie society's educational ideas and practices.  Through an interdisciplinary approach, readings and activities are designed for school practitioners, or those contemplating careers in education, to engage in the study of those cultural aspects and consequences.  The general intent of foundational study is to introduce students to interpretive uses of knowledge Germane to education and to establish a basis for lifelong learning through normative and critical reflection on education within its historical philosophical, cultural and social contexts.  Special emphasis is focused on the role of schooling in cultivating the habits necessary for democratic citizenship which include ongoing efforts to secure equitable and just social relations, and to advance the common good.",
-            "id": "ADMPS1001",
-            "major": "ADMPS",
-            "prereq": [],
-            "recitation": false
-        }
-    },
     "AFRCNA": {
         "AFRCNA0031": {
             "className": "INTRODUCTION TO AFRICANA STUDIES",
@@ -5717,6 +5436,498 @@
             "description": "",
             "id": "COMMRC1905",
             "major": "COMMRC",
+            "prereq": [],
+            "recitation": false
+        }
+    },
+    "CS": {
+        "CS0004": {
+            "className": "INTRODUCTION TO COMPUTER PROGRAMMING-BASIC",
+            "classNumber": "0004",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This is a first course in computer science.  It is designed to be of special interest to students majoring in one of the social sciences or humanities.  Objectives of this course include use of the computer in an interactive environment; problem analysis and the development of algorithms; learning the basic language; designing; coding; and documenting programs using techniques of good programming style.",
+            "id": "CS0004",
+            "major": "CS",
+            "prereq": [],
+            "recitation": false
+        },
+        "CS0007": {
+            "className": "INTRODUCTION TO COMPUTER PROGRAMMING",
+            "classNumber": "0007",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This is a first course in computer science programming.  It is recommended for those students intending to major in computer science who do not have the required background for cs 0401.  It may also be of interest to students majoring in one of the social sciences or humanities.  The focus of the course is on problem analysis and the development of algorithms and computer programs in a modern high-level language.",
+            "id": "CS0007",
+            "major": "CS",
+            "prereq": [],
+            "recitation": true
+        },
+        "CS0008": {
+            "className": "INTRODUCTION TO COMPUTER PROGRAMMING WITH PYTHON",
+            "classNumber": "0008",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This is course is designed as a first course in computer science programming.  It is recommended for those students majoring in one of the natural sciences, social sciences, or humanities who wish to learn the fundamentals of programming.  It is also useful to students intending to major in computer science who do not have the required background for CS 0401.  The focus of this course is on problem analysis, the development of algorithms and computer programs in python. Instruction will be provided to students interested in taking CS 401 in converting python programs to Java.",
+            "id": "CS0008",
+            "major": "CS",
+            "prereq": [],
+            "recitation": true
+        },
+        "CS0010": {
+            "className": "INTRODUCTION TO COMPUTING FOR SYSTEMS ENGINEERS",
+            "classNumber": "0010",
+            "coreq": [],
+            "credits": "4 units",
+            "description": "All of the CS 001X courses will introduce students to the concepts of computing and computer programming. Students in these courses will learn how a computer works and how to write programs in order to use the computer as a problem solving tool. A major focus of the class will be on developing problem-solving skills (e.g., how to decompose a problem into more manageable parts and how to combine those parts into an overall solution).  CS 0010 in particular will focus on problems related to IoT and engineering. Students will be required to purchase a Raspberry Pi and sensors in order to complete the projects and labs assigned throughout the course.",
+            "id": "CS0010",
+            "major": "CS",
+            "prereq": [],
+            "recitation": true
+        },
+        "CS0011": {
+            "className": "INTRODUCTION TO COMPUTING FOR SCIENTISTS",
+            "classNumber": "0011",
+            "coreq": [],
+            "credits": "4 units",
+            "description": "All of the CS 001X courses will introduce students to the concepts of computing and computer programming. Students in these courses will learn how a computer works and how to write programs in order to use the computer as a problem solving tool. A major focus of the class will be on developing problem-solving skills (e.g., how to decompose a problem into more manageable parts and how to combine those parts into an overall solution). CS 0011 in particular will focus on problems related to the natural sciences with an emphasis on computational biology. Domain-specific projects and labs will be assigned throughout the course to encourage students in the natural sciences to apply computing to their field of study.",
+            "id": "CS0011",
+            "major": "CS",
+            "prereq": [],
+            "recitation": true
+        },
+        "CS0012": {
+            "className": "INTRODUCTION TO COMPUTING FOR THE HUMANITIES",
+            "classNumber": "0012",
+            "coreq": [],
+            "credits": "4 units",
+            "description": "All of the CS 001X courses will introduce students to the concepts of computing and computer programming. Students in these courses will learn how a computer works and how to write programs in order to use the computer as a problem solving tool. A major focus of the class will be on developing problem-solving skills (e.g., how to decompose a problem into more manageable parts and how to combine those parts into an overall solution). CS 0012 in particular will focus on problems related to the humanities and allied social sciences. Domain-specific projects and labs will be assigned throughout the course to encourage students in these fields to apply computing to their studies.",
+            "id": "CS0012",
+            "major": "CS",
+            "prereq": [],
+            "recitation": true
+        },
+        "CS0134": {
+            "className": "WEB SITE DESIGN AND DEVELOPMENT",
+            "classNumber": "0134",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course will provide a basic understanding of the methods and techniques of developing a simple to moderately complex web site.  Using the current standard web page language, students will be instructed on creating and maintaining a simple web site.  After the foundation language has been established, the aid of an internet editor will be introduced.  A second web-based language will be included to further enhance the web sites.",
+            "id": "CS0134",
+            "major": "CS",
+            "prereq": [],
+            "recitation": false
+        },
+        "CS0334": {
+            "className": "INTERMEDIATE WEB SITE DESIGN AND DEVELOPMENT",
+            "classNumber": "0334",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "The course will consist of advanced implementations of both markup as well as scripting languages. In addition, students will be introduced to a graphical interface application that will allow them to explore concepts of server side web development. A reflective programming language and database application will be used to introduce the server side web development concepts.",
+            "id": "CS0334",
+            "major": "CS",
+            "prereq": [
+                "PREQ: CS 0007 or 0134 or 0401 or INFSCI 0017 (Min Grade 'C' or Transfer)"
+            ],
+            "recitation": false
+        },
+        "CS0401": {
+            "className": "INTERMEDIATE PROGRAMMING USING JAVA",
+            "classNumber": "0401",
+            "coreq": [],
+            "credits": "4 units",
+            "description": "This course is a rigorous introduction to the fundamental concepts and techniques of computer programming using the java programming language.  This is a first course for students who intend to major in computer science.",
+            "id": "CS0401",
+            "major": "CS",
+            "prereq": [],
+            "recitation": true
+        },
+        "CS0441": {
+            "className": "DISCRETE STRUCTURES FOR CS",
+            "classNumber": "0441",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "The purpose of this course is to understand and use (abstract) discrete structures that are backbones of computer science.  In particular, this class is meant to introduce logic, proofs, sets, relations, functions, counting, and probability, with an emphasis on applications in computer science.",
+            "id": "CS0441",
+            "major": "CS",
+            "prereq": [
+                "CREQ: MATH 0220 or 0230 or 0235 or 0140 (Min Grade 'C' or Transfer) or (Plan: CS-MN or CSCI-MN and MATH 0120)"
+            ],
+            "recitation": true
+        },
+        "CS0445": {
+            "className": "DATA STRUCTURES",
+            "classNumber": "0445",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course emphasizes the study of the basic data structures of computer science (stacks, queues, trees, lists) and their implementations using the java language included in this study are programming techniques which use recursion, reference variables, and dynamic memory allocation.  Students in this course are also introduced to various searching and sorting methods and also expected to develop an intuitive understanding of the complexity of these algorithms.",
+            "id": "CS0445",
+            "major": "CS",
+            "prereq": [
+                "PREQ: CS 0401 or COE 0401 or 0422 or CIST 0150 (MIN GRADE 'C' or Transfer)"
+            ],
+            "recitation": true
+        },
+        "CS0447": {
+            "className": "COMPUTER ORGANIZATION AND ASSEMBLY LANGUAGE",
+            "classNumber": "0447",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "The purpose of this course is to study the components of computing systems common to most computer architectures.  In particular, this class is meant to introduce data representation, types of processors, memory types and hierarchy, and device drivers.  The students will learn MIPS assembly language, the design of arithmetic and logic units, and basic designs for RISC processors.",
+            "id": "CS0447",
+            "major": "CS",
+            "prereq": [
+                "CREQ: CS 0445 or COE 0445 or 0458 (Min Grade 'C' or Transfer)"
+            ],
+            "recitation": true
+        },
+        "CS0449": {
+            "className": "INTRODUCTION TO SYSTEMS SOFTWARE",
+            "classNumber": "0449",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course covers topics related to the interface of hardware and software.  It covers device interfaces and hardware synchronization at the lowest level of the operating system, the linkage of operating system services to application software, and the fundamental mechanisms for computer communications.",
+            "id": "CS0449",
+            "major": "CS",
+            "prereq": [
+                "PREQ: CS 0445 or CS 0455 (Min Grade 'C' or Transfer); CREQ: CS 0447 or CS 0456 or COE 0447 or COE 0147"
+            ],
+            "recitation": true
+        },
+        "CS0590": {
+            "className": "SOCIAL IMPLICATIONS OF COMPUTING TECHNOLOGY",
+            "classNumber": "0590",
+            "coreq": [],
+            "credits": "3 units",
+            "description": " ",
+            "id": "CS0590",
+            "major": "CS",
+            "prereq": [
+                "PREQ: CS 0002 or 0003 or 0004 or 0007 or 0008 or 0015 or 0101 or 0401 or COE 0401 (Min Grade 'C' or Transfer for All Listed Courses)"
+            ],
+            "recitation": false
+        },
+        "CS1501": {
+            "className": "ALGORITHM IMPLEMENTATION",
+            "classNumber": "1501",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "The course covers a broad range of the most commonly used algorithms:  some examples include algorithms for sorting, searching, encryption, compression, and local search.  The students will implement and test several algorithms.  The course is programming intensive.",
+            "id": "CS1501",
+            "major": "CS",
+            "prereq": [
+                "PREQ: (CS 0441 or CS 0406) and (CS 0445 or CS 0455 or COE 0445) ; (MIN GRADE 'C'  or Transfer FOR ALL COURSES LISTED)"
+            ],
+            "recitation": true
+        },
+        "CS1502": {
+            "className": "FORMAL METHODS IN COMPUTER SCIENCE",
+            "classNumber": "1502",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "The course is an introduction to the theory of information and computation as a physical phenomenon. The course covers standard formalizations of computational concepts and proofs of noteworthy implications of these formalizations. Typical topics include: finite automata, computability, reducibility, and complexity.",
+            "id": "CS1502",
+            "major": "CS",
+            "prereq": [
+                "PREQ: (CS 0441 or CS 0406) and (CS 0445 or CS 0455 or COE 0445) ; (MIN GRADE C'  or Transfer FOR ALL COURSES LISTED)"
+            ],
+            "recitation": false
+        },
+        "CS1510": {
+            "className": "ALGORITHM DESIGN",
+            "classNumber": "1510",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course will cover methods and strategies that are useful for the design of nonnumeric algorithms.  Students are expected to design their own algorithms.",
+            "id": "CS1510",
+            "major": "CS",
+            "prereq": [
+                "PREQ: [(CS 1501 or COE 1501) and CS 1502] or (CS 0458 and CS 1710); MIN GRADE 'C' or Transfer FOR ALL COURSES LISTED"
+            ],
+            "recitation": true
+        },
+        "CS1520": {
+            "className": "PROGRAMMING LANGUAGE FOR WEB APPLICATIONS",
+            "classNumber": "1520",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "Various programming paradigms will be studied using java and scripting languages.  The use of java in programming web based applications, network applications, and the use of the extensive java libraries will be studied.  The programming paradigm of building software by gluing components will be explored through the use of scripting languages such as perl and JavaScript.  Applications include developing guis and internet programming.",
+            "id": "CS1520",
+            "major": "CS",
+            "prereq": [
+                "PREQ: CS 0445 or COE 0445; (MIN GRADE 'C' or Transfer)"
+            ],
+            "recitation": true
+        },
+        "CS1530": {
+            "className": "SOFTWARE ENGINEERING",
+            "classNumber": "1530",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "The purpose of this course is to provide a general survey of software engineering.  Some of the topics covered include: project planning and management, design techniques, verification and validation, and software maintenance.  Particular emphasis is on a group project in which a group of students implement a system from its specification.",
+            "id": "CS1530",
+            "major": "CS",
+            "prereq": [
+                "PREQ: CS 0445 or COE 0445; (MIN GRADE 'C' or Transfer)"
+            ],
+            "recitation": false
+        },
+        "CS1541": {
+            "className": "INTRODUCTION TO COMPUTER ARCHITECTURE",
+            "classNumber": "1541",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "Examination of computer architecture and hardware system organization.  Topics include:  CPU organization, sequential and microprogrammed control, instruction set implementation, memory organizations, input/output structure, peripherals and computer communications.",
+            "id": "CS1541",
+            "major": "CS",
+            "prereq": [
+                "PREQ: (CS 0447 or COE 0447 or COE 0147) and (CS 0449 or COE 0449) ; (MIN GRADE 'C' or Transfer)"
+            ],
+            "recitation": false
+        },
+        "CS1550": {
+            "className": "INTRODUCTION TO OPERATING SYSTEMS",
+            "classNumber": "1550",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "An introduction to basic concepts of operating systems, common to most computer systems, which interfaces the machine with upper-level programs.  This course will introduce processes as processing unit, process management, concurrency, communication, memory management and protection, and file systems.",
+            "id": "CS1550",
+            "major": "CS",
+            "prereq": [
+                "PREQ: (CS 0447 or COE 0447 or COE 0147) and (CS 0449 or COE 0449) or (0456 and 1750); MIN GRADE 'C'  or TRANSFER FOR ALL COURSES LISTED"
+            ],
+            "recitation": true
+        },
+        "CS1555": {
+            "className": "DATABASE MANAGEMENT SYSTEMS",
+            "classNumber": "1555",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "The objective of this course is to provide an in-depth knowledge of database systems design. Thus, the emphasis is on how to model ones own data and how to use available database management systems effectively. Towards this end, the relational and the object-relational models are discussed in great detail and object-oriented and other data models are also presented. Commercial database management systems are examined and students get practical experience through the use of such systems.",
+            "id": "CS1555",
+            "major": "CS",
+            "prereq": [
+                "PREQ: CS 1501 (Min Grade 'C')"
+            ],
+            "recitation": true
+        },
+        "CS1566": {
+            "className": "INTRODUCTION COMPUTER GRAPHICS",
+            "classNumber": "1566",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course offers an in-depth exploration of fundamental concepts in 2d and 3d computer graphics. The bulk of the course is devoted to 3d modeling, geometric transformations, and 3d viewing and rendering.",
+            "id": "CS1566",
+            "major": "CS",
+            "prereq": [
+                "PREQ: (CS 0447 or 0456 or COE 0447 or COE 0147); (MIN GRADE 'C'  or TRANSFER FOR ALL COURSES LISTED)"
+            ],
+            "recitation": false
+        },
+        "CS1571": {
+            "className": "INTRODUCTION TO ARTIFICIAL INTELLIGENCE",
+            "classNumber": "1571",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course will provide an introduction to the fundamental concepts and techniques underlying the construction of intelligent computer systems.  Topics covered in the course include:  problem solving and search, logic and knowledge representation, planning, reasoning and decision-making in the presence of uncertainty, and machine learning.",
+            "id": "CS1571",
+            "major": "CS",
+            "prereq": [
+                "PREQ: (CS 1501 or COE 1501) and CS 1502 (Min Grade 'C' or Transfer for All Listed Courses)"
+            ],
+            "recitation": false
+        },
+        "CS1621": {
+            "className": "STRUCTURE PROGRAMMING LANGUAGES",
+            "classNumber": "1621",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "An analytical examination of modern high-level programming language structures; including design specification and implementation.  Advanced forms of data types, expressions, and control primitives.  Relationship of storage management techniques and language design.",
+            "id": "CS1621",
+            "major": "CS",
+            "prereq": [
+                "PREQ: CS (0441 and 0445) or (0406 and 0455); (MIN GRADE 'C' or TRANSFER FOR ALL COURSES LISTED)"
+            ],
+            "recitation": false
+        },
+        "CS1622": {
+            "className": "INTRODUCTION TO COMPILER DESIGN",
+            "classNumber": "1622",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course will introduce the basic concepts of compiler design and implementation.  Topics include lexical analysis, various types of parsers, intermediate and object code generation and code optimization.  The material will be presented from an implementation point of view rather than a formal approach.  The impact of language design on compilers will also be examined.",
+            "id": "CS1622",
+            "major": "CS",
+            "prereq": [
+                "PREQ: CS 0441 and ((CS or COE 0447 or COE 0147) or (CS 0406 and 0456)); (MIN GRADE 'C'  OR TRANSFER FOR ALL COURSES LISTED)"
+            ],
+            "recitation": false
+        },
+        "CS1632": {
+            "className": "SOFTWARE QUALITY ASSURANCE",
+            "classNumber": "1632",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course provides students with a broad understanding of modern software testing and quality assurance. Although it will cover testing theory, the emphasis is on providing practical skills in software testing currently used in industry. To that end, it will cover: manual and automated tests, test-driven and behavior-driven development, performance testing, and understanding and developing a testing process.",
+            "id": "CS1632",
+            "major": "CS",
+            "prereq": [
+                "PREQ: (CS 0445 or COE 0445 or CS 0455) or (PLAN COE and (CS 0445 or COE 0445) (Min Grade 'C'  or Transfer for All Listed Courses)"
+            ],
+            "recitation": false
+        },
+        "CS1640": {
+            "className": "BIOINFORMATICS SOFTWARE DESIGN",
+            "classNumber": "1640",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course will develop software for bioinformatic applications.",
+            "id": "CS1640",
+            "major": "CS",
+            "prereq": [],
+            "recitation": false
+        },
+        "CS1645": {
+            "className": "INTRODUCTION TO HIGH PERFORMANCE COMPUTING SYSTEMS",
+            "classNumber": "1645",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course is an introduction to the architecture of and software techniques for parallel and high performance computing systems.  The content includes fundamental aspects of vector processing, shared-memory, and distributed-memory systems.  Specific applications in parallel processing paradigms will be covered.",
+            "id": "CS1645",
+            "major": "CS",
+            "prereq": [
+                "PREQ: (CS 0447 or COE 0447 or COE 0147) and (CS 0449 or COE 0449) and (CS 1501 or COE 1501); (MIN GRADE 'C' OR TRANSFER FOR ALL COURSES LISTED)"
+            ],
+            "recitation": false
+        },
+        "CS1652": {
+            "className": "DATA COMMUNICATION AND COMPUTER NETWORKS",
+            "classNumber": "1652",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course will include basic principles and topics of computer communications.  An overview of interfaces that interconnect hardware and software components, describing the procedures and rules involved in the communication process and the software which controls computers communication. Discussion on network architectures, design principles, basic protocol suites, and the concept of internetworking.",
+            "id": "CS1652",
+            "major": "CS",
+            "prereq": [
+                "PREQ: (CS 0447 or COE 0447 or COE 0147) and (CS 0449 or COE 0449); (MIN GRADE 'C'  OR TRANSFER FOR ALL COURSES LISTED)"
+            ],
+            "recitation": false
+        },
+        "CS1653": {
+            "className": "APPLIED CRYPTOGRAPHY AND NETWORK SECURITY",
+            "classNumber": "1653",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course will provide the necessary conceptual background and hands-on experience to understand the most common cryptographic algorithms and protocols and how to use them to secure computers networks and distributed applications.  Topics include: cryptographic algorithms for data confidentiality, authentication, and integrity, user authentication methods (secure tokens and biometrics), internet security protocols, security in local area networks, firewalls, and intrusion detection systems.",
+            "id": "CS1653",
+            "major": "CS",
+            "prereq": [
+                "PREQ: (CS 0449 or COE 0449) and (CS 1501 or COE 1501) or (CS 0458 or CS 1750); (MIN GRADE 'C'  OR TRANSFER FOR ALL COURSES LISTED)"
+            ],
+            "recitation": false
+        },
+        "CS1656": {
+            "className": "INTRODUCTION TO DATA SCIENCE",
+            "classNumber": "1656",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course aims to expose students to different data management, data manipulation, and data analysis techniques. The class will cover all the major data management paradigms (relational/SQL, XML/Xquery, RDF/SPARQL) including NOSQL and data stream processing approaches. Going beyond traditional data management techniques, the class will expose students to information retrieval, data mining, data warehousing, network analysis, and other data analysis topics. Time permitting, the class will include big data processing techniques, such as the map/reduce framework.",
+            "id": "CS1656",
+            "major": "CS",
+            "prereq": [
+                "PREQ: CS 1501 or COE 1501 (MIN GRADE 'C' or Transfer For All Listed Coures)"
+            ],
+            "recitation": true
+        },
+        "CS1666": {
+            "className": "PRINCIPLES OF COMPUTER GAME DESIGN AND IMPLEMENTATION",
+            "classNumber": "1666",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "The purpose of this course is to give an introduction and insight into designing and implementing video games.  This course questions the nature, intent, and motivation of games and how to construct a compelling experience for users. It is a project-based course, with a final project being to make a game with a small team.",
+            "id": "CS1666",
+            "major": "CS",
+            "prereq": [
+                "PREQ: CS 1501 or COE 1501; (MIN GRADE 'C' or Transfer)"
+            ],
+            "recitation": false
+        },
+        "CS1674": {
+            "className": "INTRODUCTION TO COMPUTER VISION",
+            "classNumber": "1674",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "In this class, students will learn the basics of modern computer vision. The course will cover topics such as image filtering, edge detection, feature extraction, description and matching, grouping and clustering, object detection, activity recognition, and recognition with a human in the loop.",
+            "id": "CS1674",
+            "major": "CS",
+            "prereq": [
+                "PREQ: CS 1501 or COE 1501 (MIN GRADE 'C' OR TRANSFER)"
+            ],
+            "recitation": false
+        },
+        "CS1699": {
+            "className": "SPECIAL TOPICS IN COMPUTER SCIENCE",
+            "classNumber": "1699",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This is a special topics course that allows the computer science department to test run a course before deciding whether to permanently add it to our curriculum.",
+            "id": "CS1699",
+            "major": "CS",
+            "prereq": [],
+            "recitation": false
+        },
+        "CS1900": {
+            "className": "INTERNSHIP",
+            "classNumber": "1900",
+            "coreq": [],
+            "credits": "0",
+            "description": "",
+            "id": "CS1900",
+            "major": "CS",
+            "prereq": [],
+            "recitation": false
+        },
+        "CS1902": {
+            "className": "DIRECTED STUDY",
+            "classNumber": "1902",
+            "coreq": [],
+            "credits": "0",
+            "description": "",
+            "id": "CS1902",
+            "major": "CS",
+            "prereq": [],
+            "recitation": false
+        },
+        "CS1906": {
+            "className": "COMPUTER SCIENCE COOPERATIVE PROGRAM",
+            "classNumber": "1906",
+            "coreq": [],
+            "credits": "0",
+            "description": "",
+            "id": "CS1906",
+            "major": "CS",
+            "prereq": [],
+            "recitation": false
+        },
+        "CS1950": {
+            "className": "DIRECTED RESEARCH",
+            "classNumber": "1950",
+            "coreq": [],
+            "credits": "0",
+            "description": "",
+            "id": "CS1950",
+            "major": "CS",
+            "prereq": [],
+            "recitation": false
+        },
+        "CS1980": {
+            "className": "TEAM PROJECT DESIGN AND IMPLEMENTATION",
+            "classNumber": "1980",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "Students will choose a project from proposals provided by our faculty and industry partners.  Teams will consist of 3 or 4 students and they will be supervised by a project mentor.  This course satisfies the capstone requirement.",
+            "id": "CS1980",
+            "major": "CS",
             "prereq": [],
             "recitation": false
         }
