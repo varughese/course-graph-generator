@@ -102,19 +102,21 @@ def scrape_term(term):
 	output_path_term = os.path.join(output_path, term)
 	os.makedirs(output_path_term, exist_ok=True)
 	for subject in SUBJECTS_TO_SCRAPE:
-		output_path_subject = os.path.join(output_path_term, "{}.json".format(subject))
+		output_path_subject = os.path.join(output_path_term, "{}".format(subject))
 		if os.path.isfile(output_path_subject):
 			continue
 		print("Scraping", subject)
 		data[subject] = {}
 		for course_id, course in scrape_subject_by_term(term, subject).items():
 			data[subject][course_id] = course.__dict__
+			with open(output_path_subject, 'w') as f:
+				f.write('done')
 
-		to_write = json.dumps(data, default=serialize_course, sort_keys=True, indent=4)
-		f = open(output_path_subject,"w")
-		f.write(to_write)
-		f.close()
+	to_write = json.dumps(data, default=serialize_course, sort_keys=True, indent=4)
+	f = open(os.path.join(output_path_term, "course_data.json","w"))
+	f.write(to_write)
+	f.close()
 
 
 SUBJECTS_TO_SCRAPE = course_util.undergrad_subjects
-scrape_term(2201)
+scrape_term(2211)
