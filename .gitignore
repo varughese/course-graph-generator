@@ -1,6 +1,4 @@
 .vscode
-lib/courses/scraped/**/*.json
-!lib/courses/scraped/**/course_data.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
