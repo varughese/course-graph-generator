@@ -83,7 +83,6 @@ def scrape_subject_by_term(term, subj):
 	manager = Manager()
 	course_map = manager.dict()
 	p = manager.Pool(10)
-	print(subj)
 	
 	class_dict = course_util.get_term_courses(term, subj).get_course_dict()
 	for course in class_dict.values():
@@ -100,23 +99,31 @@ def scrape_term(term):
 	term = str(term)
 	data = {}
 	output_path_term = os.path.join(output_path, term)
+	output_path_checkpoints = os.path.join(output_path_term, "checkpoints.json")
+	output_path_course_data = os.path.join(output_path_term, "course_data.json")
+	checkpoints = {}
+	if os.path.isfile(output_path_checkpoints) and not USE_CHECKPOINTS:
+		with open(output_path_checkpoints, 'r') as f:
+			checkpoints = json.load(f)
+
 	os.makedirs(output_path_term, exist_ok=True)
 	for subject in SUBJECTS_TO_SCRAPE:
-		output_path_subject = os.path.join(output_path_term, "{}".format(subject))
-		if os.path.isfile(output_path_subject):
+		if subject in checkpoints:
 			continue
 		print("Scraping", subject)
 		data[subject] = {}
-		for course_id, course in scrape_subject_by_term(term, subject).items():
+		scraped_courses = scrape_subject_by_term(term, subject).items()
+		for course_id, course in scraped_courses:
 			data[subject][course_id] = course.__dict__
-			with open(output_path_subject, 'w') as f:
-				f.write('done')
+		
+		checkpoints[subject] = len(scraped_courses)
 
-	to_write = json.dumps(data, default=serialize_course, sort_keys=True, indent=4)
-	f = open(os.path.join(output_path_term, "course_data.json","w"))
-	f.write(to_write)
-	f.close()
+		with open(output_path_checkpoints, 'w') as f:
+			f.write(json.dumps(checkpoints))
 
+		with open(output_path_course_data, 'w') as f:
+			f.write(json.dumps(data, default=serialize_course, sort_keys=True, indent=4))
 
+USE_CHECKPOINTS = False
 SUBJECTS_TO_SCRAPE = course_util.undergrad_subjects
 scrape_term(2211)
