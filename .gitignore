@@ -1,4 +1,5 @@
 .vscode
+lib/courses/scraped/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
