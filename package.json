@@ -1,0 +1,29 @@
+{
+  "name": "course-graph-generator",
+  "version": "1.0.0",
+  "description": "Gather data related to courses at Pitt",
+  "main": "lib/courses/scraper",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pegjsparse": "cd lib/courses/parser && pegjs parser.pegjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varughese/course-graph-generator.git"
+  },
+  "author": "Mathew Varughese",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/varughese/course-graph-generator/issues"
+  },
+  "homepage": "https://github.com/varughese/course-graph-generator#readme",
+  "devDependencies": {
+    "yargs": "^15.3.1"
+  },
+  "dependencies": {
+    "pegjs": "^0.10.0"
+  }
+}

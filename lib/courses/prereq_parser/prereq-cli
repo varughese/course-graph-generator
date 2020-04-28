@@ -1,0 +1,179 @@
+#!/usr/bin/env node
+
+// Shoutout to Kyle Amoroso for making this as apart of our major-master project
+// for 1530 - https://github.com/varughese/major-master/blob/master/scraper/prereq-cli
+
+const fs = require('fs');
+const readline = require('readline');
+const { parse } = require('./parser');
+const yargs = require('yargs').scriptName('prereq-cli');
+
+// promisify callbacks
+const readFile = (path, encoding='utf-8') => new Promise((resolve, reject) => {
+  fs.readFile(path, encoding, (err, data) => err ? reject(err) : resolve(data));
+});
+const writeFile = (path, data) => new Promise((resolve, reject) => {
+  fs.writeFile(path, data, (err) => err ? reject(err) : resolve());
+});
+const ask = (rl, query) => new Promise(resolve => rl.question(query, resolve));
+
+// setup options
+const { argv } = yargs
+  .usage(
+    'Usage: $0 input_file [-o output_file] [-fsu]\n'
+    + '  output_file defaults to "out.json"'
+  )
+  .example(
+    '$0 data.json -o courses.json -s 2',
+    'Read course data from data.json, parse, and store in courses.json'
+    + ' with indentation of 2'
+  )
+  .example(
+    '$0 courses.json -fu',
+    'Read course data from courses.json, parse, allow user to fix errors,'
+    + ' and update courses.json'
+  )
+  .options({
+    'f': {
+      alias: 'fix-errors',
+      description: 'Allow user to tweak prereq strings for reparsing',
+      type: 'boolean'
+    },
+    'o': {
+      description: 'Specify output_file',
+      requiresArg: true,
+      type: 'string'
+    },
+    's': {
+      alias: 'spaces',
+      description: 'Number of spaces to use as white space',
+      requiresArg: true,
+      type: 'number'
+    },
+    'u': {
+      alias: 'update',
+      default: undefined,
+      description: 'Set output_file to input_file',
+      type: 'boolean'
+    }
+  })
+  .alias('h', 'help')
+  .conflicts('o', 'u')
+  .demandCommand(1, 1, 'You must provide an input_file to parse')
+  .showHelpOnFail(false, 'Specify --help for available options')
+  .version(false)
+  .strict();
+
+// read command line args
+const [ pathIn ] = argv._;
+const { fixErrors, spaces } = argv;
+const pathOut = argv.update ? pathIn : argv.o || 'out.json';
+
+startParser({ pathIn, pathOut, fixErrors, spaces })
+  .catch(({ message }) => {
+    console.error(message);
+    process.exit(1);
+  });
+
+// read pathIn, parse prereqs, write pathOut, possible user intervention
+async function startParser({ pathIn, pathOut, fixErrors, spaces }) {
+  const data = JSON.parse(await readFile(pathIn));
+  console.log(`${pathIn} read successfully`);
+
+  const subjects = Object.keys(data);
+  subjects.forEach(async (subject) => {
+    console.log("Parsing " + subject);
+    data[subject] = await parseCourses({ courses: data[subject], fixErrors});
+  })
+
+  await writeFile(pathOut, JSON.stringify(data, null, spaces));
+  console.log(`${pathOut} written successfully`);
+}
+
+async function parseCourses({ courses, fixErrors }) {
+  if (!courses) return {};
+  let errCount = 0;
+  Object.keys(courses).forEach(async (classId) => {
+    const course = courses[classId];
+    if (course.prereq && course.prereq.tree) return;
+    const prereqTree = parsePrereq(course.prereq);
+    if (prereqTree === null) {
+      errCount++;
+    }
+    course.prereq = {
+      text: course.prereq,
+      tree: prereqTree
+    };
+  });
+
+
+  if(errCount > 0) {
+    console.warn(`${errCount} prereq(s) failed to parse`);
+    console.warn();
+  }
+
+  if(fixErrors) {
+    errCount = await fixCourses(courses);
+    console.log();
+    if(errCount > 0) {
+      console.warn(`${errCount} prereq(s) still unparsed`);
+      console.warn();
+    }
+  }
+
+  return courses;
+}
+
+// parse incoming prereqs
+function parsePrereq(prereq) {
+  if(!prereq) return null;
+  const prereqString = Array.isArray(prereq) ? prereq[0] || '' : prereq;
+
+  try {
+    return parse(prereqString);
+  } catch(err) {
+    return null;
+  }
+}
+
+// let user tweak text for parser
+async function fixCourses(courses) {
+  const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+  });
+
+  console.log('Fix the following prerequisites:');
+  console.log('(type .exit to finish, empty line to ignore):');
+  console.log();
+
+  let errCount = 0;
+  let abort = false;
+  for(const id in courses) {
+    const course = courses[id];
+    const prereq = course.prereq;
+    if(prereq == null) continue;
+    if(prereq.text.length == 0 || prereq.tree != null) continue;
+    errCount++;
+
+    if(abort) continue;
+    const query = `Fix ${id}: ${JSON.stringify(prereq.text)}\n> `;
+    const change = await ask(rl, query);
+    if(!change) continue;
+
+    if(/^\.exit\b/.test(change)) {
+      abort = true;
+      continue;
+    }
+
+    try {
+      prereq.tree = parse(change);
+      errCount--;
+    } catch(e) {
+      continue;
+    }
+  }
+
+  rl.close();
+  return errCount;
+}
