@@ -4,8 +4,8 @@
 // for 1530 - https://github.com/varughese/major-master/blob/master/scraper/prereq-cli
 
 const fs = require('fs');
-const readline = require('readline');
-const { parse } = require('./parser');
+const parseAndUpdateCourse = require("./prereq-parser");
+const { promptAndFixCourse } = require("./prereq-fixer");
 const yargs = require('yargs').scriptName('prereq-cli');
 
 // promisify callbacks
@@ -15,13 +15,12 @@ const readFile = (path, encoding='utf-8') => new Promise((resolve, reject) => {
 const writeFile = (path, data) => new Promise((resolve, reject) => {
   fs.writeFile(path, data, (err) => err ? reject(err) : resolve());
 });
-const ask = (rl, query) => new Promise(resolve => rl.question(query, resolve));
 
 // setup options
 const { argv } = yargs
   .usage(
     'Usage: $0 input_file [-o output_file] [-fsu]\n'
-    + '  output_file defaults to "out.json"'
+    + '  output_file defaults to "course-req-parsed.json"'
   )
   .example(
     '$0 data.json -o courses.json -s 2',
@@ -67,87 +66,67 @@ const { argv } = yargs
 // read command line args
 const [ pathIn ] = argv._;
 const { fixErrors, spaces } = argv;
-const pathOut = argv.update ? pathIn : argv.o || 'out.json';
+const pathOut = argv.update ? pathIn : argv.o || 'course-req-parsed.json';
 
-// startParser({ pathIn, pathOut, fixErrors, spaces })
-//   .catch(({ message }) => {
-//     console.error(message);
-//     process.exit(1);
-//   });
+startParser({ pathIn, pathOut })
+  .catch(({ message }) => {
+    console.error(message);
+    process.exit(1);
+  });
 
 // read pathIn, parse prereqs, write pathOut, possible user intervention
 async function startParser({ pathIn, pathOut }) {
   const data = JSON.parse(await readFile(pathIn));
   console.log(`${pathIn} read successfully`);
-
-  if (fixErrors) {
-    console.log('Fix the following prerequisites:');
-    console.log('(type .exit to finish, empty line to ignore):');
-  }
-
+  
   const subjects = Object.keys(data);
-  subjects.forEach(async (subject) => {
-    if (fixErrors) {
-      fixCourses(data[subject]);
-    } else {
+  if (fixErrors) {
+    await fixCourses(data);
+  } else {
+    subjects.forEach((subject) => {
       console.log("Parsing " + subject);
-      data[subject] = await parseCourses(data[subject]);
-    }
-  })
+      data[subject] = parseCourses(data[subject]);
+    })
+  }
 
   await writeFile(pathOut, JSON.stringify(data, null, spaces));
   console.log(`${pathOut} written successfully`);
 }
 
-async function parseCourses(courses) {
+function parseCourses(courses) {
   if (!courses) return {};
   let errCount = 0;
   Object.keys(courses).forEach(async (classId) => {
     const course = courses[classId];
-    if (course.req && course.req.tree === null) return;
-    const prereqString = Array.isArray(course.prereq) ? course.prereq[0] || '' : course.prereq
-    const prereqTree = parsePrereq(prereqString);
-    if (prereqTree === null) {
-      errCount++;
-    }
-    course.req = {
-      text: prereqString,
-      tree: prereqTree
-    };
-
+    errCount += parseAndUpdateCourse(course);
     delete course.prereq;
     delete course.coreq;
   });
 
 
   if(errCount > 0) {
-    console.warn(`${errCount} prereq(s) failed to parse`);
-    console.warn();
+    console.warn(`${errCount} prereq(s) failed to parse\n`);
   }
   return courses;
 }
 
-// parse incoming prereqs
-function parsePrereq(prereqString) {
-  if(!prereqString) return null;
-
-  try {
-    return parse(prereqString);
-  } catch(err) {
-    return null;
-  }
-}
-
-// let user tweak text for parser
-function fixCourses(courses) {
+async function fixCourses(data) {
+  console.log('Fix the following prerequisites:');
+  console.log('(type skip or empty line to ignore):');
+  if (!data) return {};
   let errCount = 0;
-  Object.keys(courses).forEach((id) => {
-    const course = courses[id];
-    if (course.req && course.req.tree !== null) return;
-    if (course.req && course.req.text === '') return;
-    errCount++;
-    console.log(`Fix ${id}: ${JSON.stringify(course.req.text)}\n>`);
-  });
+  for (subject in data) {
+    const courses = data[subject];
+    for (classId in courses) {
+      const course = courses[classId];
+      errCount += await promptAndFixCourse(course);
+    }
+    console.log('\n');
+  }
 
-  return errCount;
+  if(errCount > 0) {
+    console.warn(`${errCount} prereq(s) failed to parse\n`);
+  }
+
+  return courses;
 }
