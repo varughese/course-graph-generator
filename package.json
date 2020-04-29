@@ -25,6 +25,7 @@
     "yargs": "^15.3.1"
   },
   "dependencies": {
+    "colors": "^1.4.0",
     "pegjs": "^0.10.0"
   }
 }

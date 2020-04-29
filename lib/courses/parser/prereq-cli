@@ -117,16 +117,19 @@ async function fixCourses(data) {
   let errCount = 0;
   for (subject in data) {
     const courses = data[subject];
+    console.log("Fixing " + subject);
     for (classId in courses) {
       const course = courses[classId];
-      errCount += await promptAndFixCourse(course);
+      await promptAndFixCourse(course);
     }
-    console.log('\n');
+    // Rewrite after every subject to save progress
+    await writeFile(pathOut, JSON.stringify(data, null, spaces));
+    console.log(`~saved successfully~\n`);
   }
 
   if(errCount > 0) {
     console.warn(`${errCount} prereq(s) failed to parse\n`);
   }
 
-  return courses;
+  return data;
 }
