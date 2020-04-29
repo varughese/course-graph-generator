@@ -83,6 +83,9 @@ class PittSubject:
 			if child not in ['\n', ' ']
 			if isinstance(child, Tag)
 		]
+		if 'No classes found matching your criteria' in classes[1].text:
+			print(self.subject, "has no classes found")
+			return None
 		for child in classes:
 			if 'href' in child.attrs:
 				class_sections_url = child.attrs['href']

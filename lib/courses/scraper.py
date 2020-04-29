@@ -1,7 +1,8 @@
 import course as course_util
 import json
 from multiprocessing import Pool, Manager
-import sys   
+import sys
+import argparse
 import os
 
 # # We have to do this because the beautiful soup xml trees are big
@@ -95,7 +96,7 @@ def scrape_subject_by_term(term, subj):
 
 output_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'scraped')
 
-def scrape_term(term):
+def scrape_term(term, USE_CHECKPOINTS=True):
 	term = str(term)
 	data = {}
 	output_path_term = os.path.join(output_path, term)
@@ -105,10 +106,13 @@ def scrape_term(term):
 	if os.path.isfile(output_path_checkpoints) and USE_CHECKPOINTS:
 		with open(output_path_checkpoints, 'r') as f:
 			checkpoints = json.load(f)
+		with open(output_path_course_data, "r") as f:
+			data = json.load(f)
 
 	os.makedirs(output_path_term, exist_ok=True)
 	for subject in SUBJECTS_TO_SCRAPE:
 		if subject in checkpoints:
+			print(subject, "Scraped")
 			continue
 		print("Scraping", subject)
 		data[subject] = {}
@@ -124,6 +128,19 @@ def scrape_term(term):
 		with open(output_path_course_data, 'w') as f:
 			f.write(json.dumps(data, default=serialize_course, sort_keys=True, indent=4))
 
-USE_CHECKPOINTS = True # Checkpoints save the subjects into checkpoints.json so it does not have to rescrape
+
 SUBJECTS_TO_SCRAPE = course_util.undergrad_subjects
-scrape_term(2201)
+
+
+if __name__ == "__main__":
+	parser = argparse.ArgumentParser(description='Scrape course data from Pitt Course Catalog.')
+	parser.add_argument('--term', type=int, help='The Pitt term code to scrape', default=2211)
+	parser.add_argument('--reset', help='Ignore previous cache', default=False, action="store_true")
+
+	args = parser.parse_args()   
+
+	print("Scraping Term", args.term);
+
+	USE_CHECKPOINTS = not args.reset # Checkpoints save the subjects into checkpoints.json so it does not have to rescrape
+
+	scrape_term(args.term)
