@@ -1,6 +1,6 @@
-const pegjsparser = require("../lib/courses/parser/parser").parse;
-const parse = require("../lib/courses/parser/prereq-parser");
-const { prereqsFailedToParse } = require("../lib/courses/parser/prereq-fixer");
+const pegjsparser = require("../courses/parser/parser").parse;
+const parse = require("../courses/parser/prereq-parser");
+const { prereqsFailedToParse } = require("../courses/parser/prereq-fixer");
 
 test("peg js parser is correct", () => {
 	const cases = [

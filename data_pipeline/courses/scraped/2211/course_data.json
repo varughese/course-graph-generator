@@ -20611,5 +20611,1699 @@
             "prereq": [],
             "recitation": false
         }
+    },
+    "PUBSRV": {
+        "PUBSRV0020": {
+            "className": "INTRODUCTION TO PUBLIC SERVICE",
+            "classNumber": "0020",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course introduces students to the fields of public service.  In addition to addressing the concept of public service, it provides students the opportunity to explore the various public service options.  These include elected and appointed positions, volunteerism, and work in non-profit organizations.  An effort will be made to give students an appreciation of the skills and talents required to effectively serve in these capacities.  Classes will involve presentations by a variety of public service professionals, field visits and service learning opportunities.",
+            "id": "PUBSRV0020",
+            "major": "PUBSRV",
+            "prereq": [],
+            "recitation": false
+        },
+        "PUBSRV0030": {
+            "className": "PUBLIC POLICY PROCESS",
+            "classNumber": "0030",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "Objective:  to stimulate independent, critical and creative thinking about processes of public policy formulation in complex and rapidly changing environments.  Course provides an approach to understanding interrelationships between elements of public policy (policy problems, policy alternatives, policy actions, policy outcomes, policy performance) and specific skills necessary to formulate and implement policies (problem identification, forecasting, recommendation, monitoring, and evaluation).",
+            "id": "PUBSRV0030",
+            "major": "PUBSRV",
+            "prereq": [],
+            "recitation": false
+        },
+        "PUBSRV0040": {
+            "className": "PUBLIC SERVICE TECHNOLOGIES",
+            "classNumber": "0040",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course presents an overview of existing and emerging technologies that may be used by public service professionals to accomplish organizational goals or improve efficiency and effectiveness.  Through discussions, readings, internet research and hands-on computer exercises, it will emphasize current information technology concepts, issues, and practices in the United States.  In addition, it will provide students with a technology skill set utilized in subsequent courses and in the practice of a public service career.",
+            "id": "PUBSRV0040",
+            "major": "PUBSRV",
+            "prereq": [],
+            "recitation": false
+        },
+        "PUBSRV1100": {
+            "className": "PRACTICES IN PUBLIC ADMINISTRATION",
+            "classNumber": "1100",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "Examines practices, issues and concepts in governmental administration.  Course deals with such matters as current and best approaches to administration, administration and politics, organizational structure and behavior, and decision making.",
+            "id": "PUBSRV1100",
+            "major": "PUBSRV",
+            "prereq": [],
+            "recitation": false
+        },
+        "PUBSRV1120": {
+            "className": "HUMAN RESOURCES MANAGEMENT IN THE PUBLIC SECTOR",
+            "classNumber": "1120",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course is an introductory survey of the understandings and skills needed by both managers and employees to cope with the myriad human resources management systems in public sector organizations.  Specific topics include the history and evolution of human resources management, the legal environment, human resources planning, position classification and compensation, recruitment, promotion, termination, performance evaluation and training.  Integrated with these topics will be the technical and legal concerns of labor relations and equal employment opportunity.",
+            "id": "PUBSRV1120",
+            "major": "PUBSRV",
+            "prereq": [],
+            "recitation": false
+        },
+        "PUBSRV1200": {
+            "className": "PRACTICES OF NON-PROFIT MANAGEMENT",
+            "classNumber": "1200",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "Introduction to forms of non-profit organizations and their roles in American society.  Course evaluates how non-profit organizations define their policy and service roles and examines the context of how they are organized, governed, financed, staffed, and managed.  Other topics to be examined are law and philanthropy, voluntarism, strategic planning and marketing, training and developing boards, staff and volunteers, and ethical behavior.",
+            "id": "PUBSRV1200",
+            "major": "PUBSRV",
+            "prereq": [],
+            "recitation": false
+        },
+        "PUBSRV1210": {
+            "className": "FINANCIAL MANAGEMENT OF NON-PROFIT ORGANIZATIONS",
+            "classNumber": "1210",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "Students are provided with an overview of the theories, practices and critical role of financial management in the non-profit sector.  Major attention is focused on the tools and techniques that are necessary for the manager to effectively achieve an expanding mission in the face of a difficult and competitive revenue raising environment.",
+            "id": "PUBSRV1210",
+            "major": "PUBSRV",
+            "prereq": [],
+            "recitation": false
+        },
+        "PUBSRV1230": {
+            "className": "FUNDRAISING FOR NON-PROFIT ORGANIZATIONS",
+            "classNumber": "1230",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course is intended to help students become familiar with the major sources of financial resources available to support the program activities of non-profit organizations. It will introduce students to the basic component of grant proposals and other revenue raising techniques i.e. plan giving, general appeals and endowments.",
+            "id": "PUBSRV1230",
+            "major": "PUBSRV",
+            "prereq": [],
+            "recitation": false
+        },
+        "PUBSRV1300": {
+            "className": "LEGAL ISSUES IN PUBLIC SERVICE",
+            "classNumber": "1300",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "Examines impact of law upon public service and manner in which legal implications condition formulation, adoption, and implementation of programs.",
+            "id": "PUBSRV1300",
+            "major": "PUBSRV",
+            "prereq": [],
+            "recitation": false
+        },
+        "PUBSRV1305": {
+            "className": "HEALTH, LAW AND ETHICS",
+            "classNumber": "1305",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course addresses legal and ethical issues encountered by health care practitioners as well as those working in health care management and public health.  Strong emphasis is placed on legal and ethical issues that occur within the realm of direct patient care.  Topics include, but are not limited to:  advance directives, decision making capacity, informed consent, organ donation, end of life decision making, surrogate decision making, and confidentiality.  Students will be able to articulate common health care ethics principles, theories, methodology, laws, and concepts and use the same to analyze health care ethics cases.  Students will also develop concrete logical arguments in support of a chosen ethical stance.",
+            "id": "PUBSRV1305",
+            "major": "PUBSRV",
+            "prereq": [],
+            "recitation": false
+        },
+        "PUBSRV1310": {
+            "className": "DIVERSITY ISSUES IN PUBLIC SERVICE",
+            "classNumber": "1310",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course analyzes public service from the perspective of minorities and women.  The minorities examined are black American men and women, with lesser attention given to ethnic minorities, those over 45 and the handicapped.  The experience and aspirations of these several minorities will be examined in terms of how minority culture illuminates the nature of public service.",
+            "id": "PUBSRV1310",
+            "major": "PUBSRV",
+            "prereq": [],
+            "recitation": false
+        },
+        "PUBSRV1315": {
+            "className": "MANAGING PROJECTS AND CONTRACTS",
+            "classNumber": "1315",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course provides students with the fundamentals of project management by examining key components of the project cycle, such as:  problem identification, results-based planning and design strategies, implementation and scheduling strategies, monitoring and performance indicators, impact learning with evaluation studies, and data management and reporting systems.  Students will also be introduced to team building concepts, managing project budgets, writing scopes of work, and legal issues in the management of contracts and administration of grants.",
+            "id": "PUBSRV1315",
+            "major": "PUBSRV",
+            "prereq": [],
+            "recitation": false
+        },
+        "PUBSRV1390": {
+            "className": "THEORIES OF LEADERSHIP",
+            "classNumber": "1390",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course is designed to acquaint students with multiple theories and practices associated with effective leadership.  In answering the question, \"what is leadership\", it examines such theories as situational, participative, transformational, and servant leadership.  It also addresses those leadership and administrative skills and practices usually associated with effective community organization and professional management.",
+            "id": "PUBSRV1390",
+            "major": "PUBSRV",
+            "prereq": [],
+            "recitation": false
+        },
+        "PUBSRV1425": {
+            "className": "PRINCIPLES OF HOMELAND SECURITY",
+            "classNumber": "1425",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course examines the new problems facing our domestic public service and justice personnel -- the borderless world of globalization and technology.  Attention is paid to problems of terrorism, incident management systems, violence incident response procedures, planning for violence, changing federal, state, and local roles and response planning, weapons of mass effects, mass casualty programs, crime scene operations, technology and emergency responses, the evolving role of the intelligence community, and government, private, and non-government security issues.",
+            "id": "PUBSRV1425",
+            "major": "PUBSRV",
+            "prereq": [],
+            "recitation": false
+        },
+        "PUBSRV1455": {
+            "className": "LAW, ETHICS AND PUBLIC POLICY IN THE MASS MEDIA",
+            "classNumber": "1455",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course examines a variety of public policy issues as those issues are impacted by the role and significance of the news and entertainment media.  It explores mass media law and policy, with particular attention to regulatory practices.",
+            "id": "PUBSRV1455",
+            "major": "PUBSRV",
+            "prereq": [],
+            "recitation": false
+        },
+        "PUBSRV1900": {
+            "className": "INTERNSHIP SEMINAR",
+            "classNumber": "1900",
+            "coreq": [],
+            "credits": "0",
+            "description": "",
+            "id": "PUBSRV1900",
+            "major": "PUBSRV",
+            "prereq": [],
+            "recitation": false
+        },
+        "PUBSRV1901": {
+            "className": "INDEPENDENT STUDY",
+            "classNumber": "1901",
+            "coreq": [],
+            "credits": "0",
+            "description": "",
+            "id": "PUBSRV1901",
+            "major": "PUBSRV",
+            "prereq": [],
+            "recitation": false
+        },
+        "PUBSRV1910": {
+            "className": "INSTITUTE OF POLITICS INTERNSHIP/SEMINAR",
+            "classNumber": "1910",
+            "coreq": [],
+            "credits": "4 units",
+            "description": "While students are obtaining first-hand internship experience working with an official directly involved in policy making for the Pittsburgh region, they will learn in this seminar to analyze the policy-making process as an example of social problem-solving.  They will learn the issues confronting the region; they will study the policy-making process; finally they will analyze the method of participant observation.",
+            "id": "PUBSRV1910",
+            "major": "PUBSRV",
+            "prereq": [],
+            "recitation": false
+        }
+    },
+    "QUECH": {
+        "QUECH0101": {
+            "className": "QUECHUA 1",
+            "classNumber": "0101",
+            "coreq": [],
+            "credits": "4 units",
+            "description": "The greatest part of the first term will be devoted to the presentation and practice of the basic sound patterns of the language, its fundamental sentence patterns, and sufficient vocabulary to illustrate and practice them. An introduction to the writing system will be offered together with the opportunity to acquire elementary writing and reading skills.",
+            "id": "QUECH0101",
+            "major": "QUECH",
+            "prereq": [],
+            "recitation": false
+        },
+        "QUECH0103": {
+            "className": "QUECHUA 3",
+            "classNumber": "0103",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "The first term of the second year will concentrate on the further development of fluency in oral production and the improvement in the student's ability to understand the flow of speech as uttered by a native speaker. Increased attention will be paid to reading as a means of augmenting a recognition vocabulary and writing as a drill and as a means of consolidating and communicating the knowledge gained.",
+            "id": "QUECH0103",
+            "major": "QUECH",
+            "prereq": [
+                "PREQ: LING 0442 or QUECH 0102; MIN GRADE: 'C' FOR LISTED COURSES"
+            ],
+            "recitation": false
+        },
+        "QUECH1905": {
+            "className": "UNDERGRADUATE TEACHING ASSISTANT IN QUECHUA",
+            "classNumber": "1905",
+            "coreq": [],
+            "credits": "0",
+            "description": "",
+            "id": "QUECH1905",
+            "major": "QUECH",
+            "prereq": [],
+            "recitation": false
+        }
+    },
+    "REHSCI": {
+        "REHSCI1000": {
+            "className": "PRINCIPLES OF RESEARCH METHOLOGY",
+            "classNumber": "1000",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "The study of the nature of research and the applications of the scientific approach in the research procedures. The course focuses on concepts, design techniques and interpretations, as well as limiting factors and ethical considerations.",
+            "id": "REHSCI1000",
+            "major": "REHSCI",
+            "prereq": [
+                "PREQ: (STAT 0200 or 1000 or 1020 or 1131) or (PSY 0201 or 0270); MIN GRADE: 'C-' for listed courses; PLAN: Rehabilitation Science (BS, BSH, BPH)"
+            ],
+            "recitation": false
+        },
+        "REHSCI1200": {
+            "className": "HUMAN ANATOMY",
+            "classNumber": "1200",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course uses lecture and laboratory experiences to teach the anatomical structures of the human body. Content focuses on gross human anatomy with particular reference to the musculoskeletal, nervous, cardiovascular and respiratory systems. Emphasis has been laid on application of knowledge of human anatomy in diagnostics of commonly encountered diseases/injuries. Students are encouraged to use their knowledge of anatomical structures learned in class to create such clinical scenarios as a part of learning.",
+            "id": "REHSCI1200",
+            "major": "REHSCI",
+            "prereq": [
+                "PREQ: [(BIOSC 0150 or 0170 or 0716)or(BIOL 0110)orBIOENG 1070] and [(BIOSC 0050or0057or0058or0070 or0715) or (BIOENG 1070) or (BIOL 0101or0111)] or BIOSC 0190; MIN GRADE: 'C-' ;  PLAN: REHSCI or AT (BS, BSH, BPH); CREQ: REHSCI 1201"
+            ],
+            "recitation": false
+        },
+        "REHSCI1201": {
+            "className": "HUMAN ANATOMY LAB",
+            "classNumber": "1201",
+            "coreq": [],
+            "credits": "1 units",
+            "description": "This course uses lecture and laboratory experiences to teach the anatomical structures of the human body. Content focuses on gross human anatomy with particular reference to the musculoskeletal, nervous, cardiovascular and respiratory systems. Emphasis has been laid on application of knowledge of human anatomy in diagnostics of commonly encountered diseases/injuries. Students are encouraged to use their knowledge of anatomical structures learned in class to create such clinical scenarios as a part of learning.",
+            "id": "REHSCI1201",
+            "major": "REHSCI",
+            "prereq": [
+                "CREQ: REHSCI 1200"
+            ],
+            "recitation": false
+        },
+        "REHSCI1205": {
+            "className": "HUMAN PHYSIOLOGY",
+            "classNumber": "1205",
+            "coreq": [],
+            "credits": "4 units",
+            "description": "This basic human physiology course covers general physiological processes, muscles, blood and lymph, body fluids, renal function, respiration, metabolism, and the nervous, gastrointestinal, cardiovascular and endocrine systems. Problem-based formats will be introduced with particular reference to those problems seen in clinical settings.",
+            "id": "REHSCI1205",
+            "major": "REHSCI",
+            "prereq": [
+                "PREQ: [(BIOSC 0150 or 0170 or 0715) or (BIOL 0110) or (BIOENG 1070)] and [(BIOSC 0050 or  0057 or 0058 or 0070)] or (BIOENG 1070) or (BIOL 0101 or 0111)]; MIN GRADE: 'C-' for listed courses. PLAN: REHSCI (BS, BPH) or AT (BS, BS-H, BPH)"
+            ],
+            "recitation": false
+        },
+        "REHSCI1210": {
+            "className": "NEUROSCIENCE",
+            "classNumber": "1210",
+            "coreq": [],
+            "credits": "4 units",
+            "description": "This course studies the basic structure and function of the central and peripheral nervous system.  There is an emphasis on the effects of lesions of the nervous system on human function and disability.",
+            "id": "REHSCI1210",
+            "major": "REHSCI",
+            "prereq": [
+                "PREQ: (REHSCI 1200 and 1205) or (BIOSC 1250 or 1070) or (NROSCI 1250) or (NUR 0013 and 0003); MIN GRADE: 'C-' for listed courses; PLAN: Rehabilitation Science (BS; BS-H; BPH)"
+            ],
+            "recitation": true
+        },
+        "REHSCI1215": {
+            "className": "EXERCISE PHYSIOLOGY",
+            "classNumber": "1215",
+            "coreq": [],
+            "credits": "2 units",
+            "description": "This course focuses on the effects of exercise in preventing and treating disability, in optimizing the rehabilitation process, and in maintaining the health of those with disabilities.  The course emphasizes the effects of exercise on the various body systems, including the cardiovascular, neuromuscular, and musculosketetal, in individuals with disabilities.",
+            "id": "REHSCI1215",
+            "major": "REHSCI",
+            "prereq": [
+                "PREQ: (REHSCI 1205) or (BIOSC 1250 or 1070) or (NROSCI 1250) or (NUR 0013 and 0003); MIN GRADE: 'C-' for listed courses; COREQ REHSCI 1216; PLAN: Rehabilitation Science (BS, BPH) or Athletic Training (BS, BS-H, BPH)"
+            ],
+            "recitation": false
+        },
+        "REHSCI1216": {
+            "className": "EXERCISE PHYSIOLOGY LAB",
+            "classNumber": "1216",
+            "coreq": [],
+            "credits": "1 units",
+            "description": "Required lab component for REHSCI 1215 Exercise Physiology: This course focuses on the effects of exercise in preventing and treating disability, in optimizing the rehabilitation process, and in maintaining the health of those with disabilities.  The course emphasizes the effects of exercise on the various body systems, including the cardiovascular, neuromuscular, and musculosketetal, in individuals with disabilities.",
+            "id": "REHSCI1216",
+            "major": "REHSCI",
+            "prereq": [
+                "PREQ: (REHSCI 1205) or (BIOSC 1250 or 1070) or (NROSCI 1250) or (NUR 0013 and 0003); MIN GRADE 'C-\" for listed courses; COREQ: REHSCI 1215; PLAN: REHSCI (BS, BS-H, BPH) or AT(BS, BS-H, BPH)"
+            ],
+            "recitation": false
+        },
+        "REHSCI1225": {
+            "className": "INTRO TO REHABILITATION SCIENCE",
+            "classNumber": "1225",
+            "coreq": [],
+            "credits": "1 units",
+            "description": "This course will introduce students to the criteria on which they will be judged in the graduate school application process and topics related to professionalism. Recommended readings will prepare the student to develop basic skills for reading and interpreting research articles. Various researchers and clinicians from within the University of Pittsburgh and the University of Pittsburgh Medical Center will be invited to share their research studies and/or clinical experiences and perspectives.",
+            "id": "REHSCI1225",
+            "major": "REHSCI",
+            "prereq": [
+                "PLAN: Rehabilitation Science (BS, BSH, BPH)"
+            ],
+            "recitation": false
+        },
+        "REHSCI1230": {
+            "className": "REHABILITATION ETHICS",
+            "classNumber": "1230",
+            "coreq": [],
+            "credits": "2 units",
+            "description": "This course explores ethical issues of: human value development, decision making, basic principles of health care, the nature of rights, confidentiality and management of health care information, professional gate keeping as a function of role fidelity, autonomy and paternalism, justice and the allocation of scarce resources, withholding and withdrawing life support, euthanasia, abortion, AIDS and health care practice, genetic science, and trans-cultural health. Students will work in teams to create presentations from these various topics for their colleagues. This is a highly interactive program of instruction and requires student be actively engaged in the learning process.",
+            "id": "REHSCI1230",
+            "major": "REHSCI",
+            "prereq": [
+                "PLAN: Rehabilitation Science (BS, BSH, BPH)"
+            ],
+            "recitation": false
+        },
+        "REHSCI1235": {
+            "className": "MEDICAL TERMINOLOGY",
+            "classNumber": "1235",
+            "coreq": [],
+            "credits": "1 units",
+            "description": "This course is designed to introduce students to the fundamentals of medical terminology. It includes word structure of basic medical and surgical terms and procedures, body parts and organs, body systems, selected medical specialties, and commonly used medical abbreviations and symbols. This course is a self-directed learning course, using a programmed text, with online quizzes (through Blackboard) and a final exam administered in a classroom.",
+            "id": "REHSCI1235",
+            "major": "REHSCI",
+            "prereq": [],
+            "recitation": false
+        },
+        "REHSCI1240": {
+            "className": "ISSUES IN HEALTH CARE",
+            "classNumber": "1240",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course is intended as a survey of current health care issues in the United States and will focus on major trends, issues and problems facing health care professionals and policy makers. In particular, an overview of the US health care system, the role of government, its payers (public and private), health policy, regulatory and accrediting bodies, and an analysis of timely challenges and issues are discussed. Specific topics covered are intended to be representative (not all inclusive) of public and/or service delivery issues widely discussed in current literature. Class participation and assignments will focus on application of principles discussed to current and emerging issues.",
+            "id": "REHSCI1240",
+            "major": "REHSCI",
+            "prereq": [
+                "PLAN: Rehabilitation Science (BS, BSH, BPH)"
+            ],
+            "recitation": false
+        },
+        "REHSCI1245": {
+            "className": "HUMAN DEVELOPMENT",
+            "classNumber": "1245",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course follows the development of individuals and highlights the role of rehab science professions from conception until the end of life. It combines theory, research, and practical applications from developmental psychology. Lecture topics include genetic influences on development; prenatal and birth factors; physical, cognitive, social, personality, and cultural variables that influence development across the life-span.",
+            "id": "REHSCI1245",
+            "major": "REHSCI",
+            "prereq": [
+                "PREQ: PSY 0010 or 0101 or 0200; MIN GRADE \"C-\" for all listed courses"
+            ],
+            "recitation": false
+        },
+        "REHSCI1280": {
+            "className": "PSYCH AND SOCLGY OF DISABILITY",
+            "classNumber": "1280",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "Topics covered in this course include individual and societal views of persons with disabilities; both historical and current trends are discussed including disability rights legislation, independent living options, access to everyday living activities, education, employment, assistive technology, and the need for ongoing advocacy, as described by various guest speakers with disabilities.",
+            "id": "REHSCI1280",
+            "major": "REHSCI",
+            "prereq": [
+                "PLAN: Rehabilitation Science (BS, BSH, BPH)"
+            ],
+            "recitation": false
+        },
+        "REHSCI1285": {
+            "className": "INTRO TO EVIDENCED-BASED REHAB",
+            "classNumber": "1285",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course provides basic skills in reading, reviewing, and critiquing the research literature in the rehabilitation sciences. These skills will be applied to the relevant literature in diagnosis, prognosis and intervention strategies within the spectrum of rehabilitation science. Students will learn to generate relevant research questions and utilize an evidence-based medicine approach to the review, appraisal and synthesis of current research articles within the fore-mentioned areas. The course will culminate in an individualreviewproject aimed at the development and resolution of one particular research question, using the best, current available literature. A basic understanding of research methods, design and or statistics is required.",
+            "id": "REHSCI1285",
+            "major": "REHSCI",
+            "prereq": [
+                "PLAN: Rehabilitation Science (BS or BS-H or BPH); PREQ: REHSCI 1000 or PSY 0035 or SOC 0230"
+            ],
+            "recitation": false
+        },
+        "REHSCI1290": {
+            "className": "PRACTICAL ISSUES IN DISABILITY",
+            "classNumber": "1290",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course will review the natural progression of several age and non-age related physical disabilities such as Alzheimer's and Dementia, Parkinson's disease, CHF, COPD, DM, Spinal Cord injury, and Multiple Sclerosis (subject to change). When possible, individuals with disabilities are invited to participate in classroom discussions to share their first-hand experiences of living with a disability. This course will likely include an observational experience outside the classroom. This may include traveling to someone's home with a disability and/or their place of employment via public or a student's private mode of transportation. Additional details will be reviewed on the first day of class.",
+            "id": "REHSCI1290",
+            "major": "REHSCI",
+            "prereq": [
+                "PLAN: Rehabilitation Science (BS, BPH, BPH)"
+            ],
+            "recitation": false
+        },
+        "REHSCI1292": {
+            "className": "DIVERSITY AND CULTURAL ISSUES IN HEALTH, DISABILITY AND REHABILITATION",
+            "classNumber": "1292",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course provides a forum for exploring issues of diversity and multiculturalism as they affect both daily interactions and professional practice in health care and rehabilitation. In this course students will build a greater understanding of: personal culture; how factors of culture and diversity influence an individual's health, living needs, and response to stress; international concepts of disability and health & rehabilitation services; and globalization and its relationship to rehabilitation. In addition, students will learn how to apply concepts of cross-cultural competence and intercultural communication to clinical services and program development.",
+            "id": "REHSCI1292",
+            "major": "REHSCI",
+            "prereq": [
+                "PLAN: Rehabilitation Science (BS, BSH, BPH)"
+            ],
+            "recitation": false
+        },
+        "REHSCI1295": {
+            "className": "FIELD EXPERIENCE",
+            "classNumber": "1295",
+            "coreq": [],
+            "credits": "1 - 3 units",
+            "description": "Designed to fulfill the assistive technology in rehabilitation certificate field experience requirement. This course provides an opportunity to interact with assistive technologies, persons who use assistive technologies and with assistive technology researchers and providers.The student will work with the Field Experience Coordinator to make arrangements with aclinicalfacility and will work with a Faculty Advisor to develop a set of objectives for this experience. The student will be expected to participate a total of 45 hours per credit hour sought. Grade will be determined by Faculty Advisor based on evaluation by the clinical facility and student's internship journal, a written summary of the clinical experience, and if more than 1 credit sought, a research paper.Students are required to complete online training modules and a physical exam, including documentation of up-to-date immunizations and TB test prior to registration. Other policies may apply based on the chosen field experience site.",
+            "id": "REHSCI1295",
+            "major": "REHSCI",
+            "prereq": [],
+            "recitation": false
+        },
+        "REHSCI1296": {
+            "className": "ASSISTIVE TECHNOLOGY IN REHABILITATION FIELD EXPERIENCE",
+            "classNumber": "1296",
+            "coreq": [],
+            "credits": "1 - 3 units",
+            "description": "Designed to fulfill the assistive technology in rehabilitation certificate field experience requirement. This course provides an opportunity to interact with assistive technologies, persons who use assistive technologies and with assistive technology researchers and providers. The student will work with the Field Experience Coordinator to make arrangements with a clinical facility and will work with a Faculty Advisor to develop a set of objectives for this experience. The student will be expected to participate a total of 45 hours per credit hour sought. Grade will be determined by Faculty Advisor based on evaluation by the clinical facility and student's internship journal, a written summary of the clinical experience, and if more than 1 credit sought, a research paper. Students are required to complete online training modules and a physical exam, including documentation of up-to-date immunizations and TB test prior to registration. Other policies may apply based on the chosen field experience site.",
+            "id": "REHSCI1296",
+            "major": "REHSCI",
+            "prereq": [
+                "PLAN: Assistive Technology in Rehab (ATR-CR2)"
+            ],
+            "recitation": false
+        },
+        "REHSCI1297": {
+            "className": "CROSS-CULTURAL INDEPENDENT STUDY",
+            "classNumber": "1297",
+            "coreq": [],
+            "credits": "0",
+            "description": "",
+            "id": "REHSCI1297",
+            "major": "REHSCI",
+            "prereq": [],
+            "recitation": false
+        },
+        "REHSCI1299": {
+            "className": "INDEPENDENT STUDY",
+            "classNumber": "1299",
+            "coreq": [],
+            "credits": "0",
+            "description": "",
+            "id": "REHSCI1299",
+            "major": "REHSCI",
+            "prereq": [],
+            "recitation": false
+        }
+    },
+    "RELGST": {
+        "RELGST0083": {
+            "className": "MYTHOLOGY IN THE ANCIENT WORLD",
+            "classNumber": "0083",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course examines in cultural context the traditional stories--myth, legend, and folktale--of the ancient Greeks and Romans.  Theories drawn from various disciplines are critically evaluated.  Attention to connections with ritual practice and to expression in daily life, art, architecture, etc.",
+            "id": "RELGST0083",
+            "major": "RELGST",
+            "prereq": [],
+            "recitation": false
+        },
+        "RELGST0090": {
+            "className": "MYTH IN THE ANCIENT NEAR EAST",
+            "classNumber": "0090",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "The myths of the ancient Near East are among the earliest written interpretations of the world and human existence. They are also among the most enduring, although they have only been unearthed in the last 200 years. In this course, we read myths from ancient Mesopotamia, Ugarit, and Israel. We study the myths as literary works, representative of the ideas and issues of the original cultural context in which they were shaped. These myths offer insight into the religious mentality of the ancient Near East, as well as societal and political issues. We examine themes such as the presentation of the life of the gods, the relationship between the human and divine worlds, the issues of mortality and immortality, existence, fertility, kingship, and ethics. The primary goal of this course is to better understand these myths as they existed and developed in their ancient settings. Of course, because the myths are expressions of human thought, we may find that in studying them we also come to better understand ourselves.",
+            "id": "RELGST0090",
+            "major": "RELGST",
+            "prereq": [],
+            "recitation": false
+        },
+        "RELGST0105": {
+            "className": "RELIGIONS OF THE WEST",
+            "classNumber": "0105",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course is a historical introduction to the religious traditions that developed in ancient Near East and the Mediterranean. Our major emphasis is on the history of the religious traditions that emerged in late antiquity which continue to as the major monotheistic religions: Judaism, Christianity and Islam. We focus on key concepts, historical developments, and contemporary issues. Throughout the course, we also examine interactions among these religious traditions and will make use of documentary film and sacred art to illustrate.  In the final segment of the course we examine the issue of secularization and the rise of the category of the non-believer, or \"none.\" The course also serves as an introduction to the academic study of religion and provides a foundation for further coursework in Judaism, Christianity, and Islam. No prior knowledge of any of the religions studied is expected or assumed.",
+            "id": "RELGST0105",
+            "major": "RELGST",
+            "prereq": [],
+            "recitation": false
+        },
+        "RELGST0115": {
+            "className": "BIBLE AS LITERATURE",
+            "classNumber": "0115",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This introductory course acquaints students with what is in the bible and provides background information drawn from various disciplines about the elements and issues that give it its distinctive character.  Attention is necessarily given to its religious perspectives, since they govern the nature and point of view of the biblical narratives, but no specific religious view is urged.",
+            "id": "RELGST0115",
+            "major": "RELGST",
+            "prereq": [],
+            "recitation": false
+        },
+        "RELGST0283": {
+            "className": "US AND THE HOLOCAUST",
+            "classNumber": "0283",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "With increasing interest in the Holocaust in Europe, this course focuses on the American side of the Atlantic - on issues of anti-Semitism and anti-immigrant sentiment in this country and on America's response to the holocaust.  We will also look at some post-Holocaust issues as well.",
+            "id": "RELGST0283",
+            "major": "RELGST",
+            "prereq": [],
+            "recitation": false
+        },
+        "RELGST0454": {
+            "className": "RISE OF ISLAM: 500-1200 CE",
+            "classNumber": "0454",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course seeks to impart an understanding of the Islamic tradition by exploring the religion's formative period. It integrates two intertwined themes: (1) early Islamic empires as geopolitical formations; and (2) the development of ideas - from ritual to philosophy to law. The first centuries of Islam are fascinating for many of the same reasons they are complex and even controversial: Surviving primary sources are fragmented, partisan, and often retrospective; a tremendous range of voices competed to define the new religion; and nearly all subsequent Muslim thinkers would harken back to this period to legitimize their own positions. The central goal is to develop an understanding of the diversity of voices in this early period and consider why certain conceptualizations of religion displaced others; and then follow those voices beyond the Arabian Peninsula to examine manifestations in the North African and Central Asian borderlands.",
+            "id": "RELGST0454",
+            "major": "RELGST",
+            "prereq": [],
+            "recitation": false
+        },
+        "RELGST0505": {
+            "className": "RELIGION IN ASIA",
+            "classNumber": "0505",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course serves as an introduction to the major religious traditions of South and East Asia. During the course of the semester, we encounter Hinduism and Jainism; the native Confucian, Daoist (Taoist), and popular traditions of China; and the Shinto, folk and new religions of Japan. Buddhism, which originated in India but later spread to East Asia, is examined in its relation to the history of both Chinese and Japanese religions. We approach these traditions through lectures and discussion based on Chinese classical and popular literature, secondary scholarship, and films, which inform us about cultural and historical context, beliefs, practices, and personal experience. In the process we expect to learn something about the ways in which non-Western religious traditions see themselves and their world on their own terms, and to see how/if they can complement our own worldviews.",
+            "id": "RELGST0505",
+            "major": "RELGST",
+            "prereq": [],
+            "recitation": false
+        },
+        "RELGST0715": {
+            "className": "PHILOSOPHY OF RELIGION",
+            "classNumber": "0715",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course examines topics central to philosophy of religion, including arguments for and against the existence of God, the nature of religious experiences, the relation between faith & reason, the personal and cultural usefulness of religion & religious practices, and religious responses to evil (theodicy). Members of the class will develop a working knowledge of the issues by reading and discussing traditional and contemporary scholarly texts.",
+            "id": "RELGST0715",
+            "major": "RELGST",
+            "prereq": [],
+            "recitation": false
+        },
+        "RELGST1120": {
+            "className": "ORIGINS OF CHRISTIANITY",
+            "classNumber": "1120",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course presents a historical-critical investigation of Christian origins. Special attention is paid to varieties of 1st century Hellenistic and Palestinian Judaism within the Greco-Roman world. Primary readings include selected Biblical passages and apocrypha, 1st century historians and philosophers (Josephus, Tacitus, Suetonius, and Philo), the New Testament corpus (including Paul and the Pastorals), and selected readings from the Dead Sea Scrolls. In addition there will be assignments from various modern New Testament critics, historians, and theologians.",
+            "id": "RELGST1120",
+            "major": "RELGST",
+            "prereq": [],
+            "recitation": false
+        },
+        "RELGST1145": {
+            "className": "GRECO-ROMAN RELIGIONS",
+            "classNumber": "1145",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course will introduce students to religious texts and traditions in a formative era of Western civilization and culture.  Our focus will be on the variety of religious expression in Greco-Roman culture, which flourished in the geo graphical area of the Mediterranean basin during the first five centuries of the common era.  We consider debates about nature of the gods and access to them (through oracles, rituals, and magic), the emergence of the idea of the holy person, and a variety of religious traditions as expressed in prayer, ritual, and art, and religion and politics.",
+            "id": "RELGST1145",
+            "major": "RELGST",
+            "prereq": [],
+            "recitation": false
+        },
+        "RELGST1148": {
+            "className": "RELIGIONS OF ANCIENT EGYPT",
+            "classNumber": "1148",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course introduces students to ancient Egyptian religious thought and practice with its massive temples, multitude of gods and goddesses and fascinating funeral rites. We explore the mythic cycle of Creation and the Osiris cycle of betrayal, revenge, death and rebirth, as well as the place of myriad local and minor deities within Egyptian mythology. We also consider the dynamics of the \"monotheistic\" revolution of Akhenaton. In the historical and cultural context of ancient Egypt, students encounter the interaction of sacred and secular, and the relationship between state cults and private worship by nobles and commoners alike. A special feature of the course includes group projects to design educational materials for the 'Egyptian Exhibit' for the Carnegie Museum. To that end, the course includes a session at the Carnegie Museum of Natural History.",
+            "id": "RELGST1148",
+            "major": "RELGST",
+            "prereq": [],
+            "recitation": false
+        },
+        "RELGST1170": {
+            "className": "ARCHAEOLOGY OF ISRAEL-PALESTINE",
+            "classNumber": "1170",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "Is archaeology in a place like Israel-Palestine an objective science? In this course, we explore how past and present are linked as nation-states and religious communities utilize the archaeological record to mold identities and to forward certain narratives. Our focus will be on the major archaeological sites of Israel-Palestine, particularly in Jerusalem and its environs. We will explore the political and religious issues that have emerged from or surround their excavation. Archaeology in the Holy Land has long been driven by a desire to shed light on - or even authenticate - the Bible, while the \"exotic Orient\" was explored in the 19th and early 20th centuries through western expeditions and excavations that served to further colonial interests. These religious and political motivations persist even if their manifestations have shifted with time. Through site tours, museum visits, student-led discussions, talks with local experts, and even a day participating in an archaeological excavation, students will gain direct experience with the places that have aroused controversy because of their problematic relationship to biblical and other ancient texts and/or because of their location in politically contested space.",
+            "id": "RELGST1170",
+            "major": "RELGST",
+            "prereq": [],
+            "recitation": false
+        },
+        "RELGST1260": {
+            "className": "AMERICAN JEWISH EXPERIENCE",
+            "classNumber": "1260",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "We analyze the Jewish experience in America since the middle of the 18th century.",
+            "id": "RELGST1260",
+            "major": "RELGST",
+            "prereq": [],
+            "recitation": false
+        },
+        "RELGST1320": {
+            "className": "MEDIEVAL HISTORY 1",
+            "classNumber": "1320",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "Survey course in the social, political, economic and religious history of Europe from the Diocletian reforms to the year one thousand.  Special attention to interpreting the primary documents and to integrating various areas of activity (e.g. economic and religious).  Focus on France, England, Germany, and Italy.",
+            "id": "RELGST1320",
+            "major": "RELGST",
+            "prereq": [],
+            "recitation": false
+        },
+        "RELGST1380": {
+            "className": "RELIGION RIGHT NOW: MEDIA AND RELIGIOUS NEWS IN CONTEMPORARY AMERICA",
+            "classNumber": "1380",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "It is apparent that Americans devote enormous media attention to the coverage of celebrities, movies and sports, but deal much less skillfully with news coverage of religion. Yet, a glance at any daily news source, print or digital, reveals the pervasiveness of news that involves religious beliefs, conflicts, and practices, and that requires basic knowledge of religious traditions. The purpose of this course is to develop student skills at reading and interpreting current news stories about religious topics in print and visual media (newspapers, journals, blogs, polls, and television) in order to increase understanding of important religious issues in the contemporary United States, including American coverage of international religious events and leaders. Instruction will include lecture, discussion, film, and small group exercises to report on current events.",
+            "id": "RELGST1380",
+            "major": "RELGST",
+            "prereq": [],
+            "recitation": false
+        },
+        "RELGST1420": {
+            "className": "RELIGION AND RACE",
+            "classNumber": "1420",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course examines the intersections of religion, race, and racism. Recently, scholars of religion have demonstrated that religious identities are often racialized as well. In this course, we will discover that religion and race are both modern categories rooted in post-enlightenment ideas about what it means to be human. We will see how the establishment of these religious and racial categories led to new hierarchies and inequalities. We will discuss how post-enlightenment thinkers linked religion and race, and how their ideas played a role in european imperialism. We will also investigate how the discipline of religious studies has developed its analytical tools with a racialized understanding of religion. The course will examine case studies in which religion has been racialized, and consider the political ramifications of these examples. In particular, we will think about the impact of white supremacy on black religion in the united states, the complicated relationship between antisemitism and islamophobia, and contemporary islamophobia in the us. Finally, we will explore the possibilities of anti-racism through faith-based scholarship and activism.",
+            "id": "RELGST1420",
+            "major": "RELGST",
+            "prereq": [],
+            "recitation": false
+        },
+        "RELGST1456": {
+            "className": "ISLAM IN ASIA",
+            "classNumber": "1456",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "Although Islamic traditions are generally associated with the Middle East, the vast majority of the world's Muslims live in the Asia-Pacific region. Countries such as India, Pakistan, Bangladesh, and Indonesia are home to vibrant and diverse Islamic traditions. This course introduces students to Asian Muslim communities and their histories, tracing the development of Asian Islamic traditions from their early roots in the medieval period through the age of colonialism and until the current day. Students will learn about mystical Islamic practices (Sufism), Islamicate art and architecture, and the regional diversity of lived Islam. We will also examine contemporary conflicts around Islamic identity in Asia, particularly in China and Myanmar, and debates about the place of Islam in modern governments and public life. In the process, students will explore primary historical sources and contemporary studies to examine the role of gender, ethnicity, nationality, and culture in the study of diverse Muslim communities in Asia.",
+            "id": "RELGST1456",
+            "major": "RELGST",
+            "prereq": [],
+            "recitation": false
+        },
+        "RELGST1500": {
+            "className": "RELIGION IN INDIA",
+            "classNumber": "1500",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "Few countries can boast such an extensive and diverse religious heritage as can India. It is the birthplace of Hinduism, Buddhism, Jainism, and Sikhism, home to a large Muslim community, as well as to small, but ancient, communities of Syrian Christians, Parsis, and Jews. The course gives a brief historical overview of these religious traditions, introduces students to basic concepts related to each of them, and illustrates their rich practices through primary and secondary readings, films, art, and music.",
+            "id": "RELGST1500",
+            "major": "RELGST",
+            "prereq": [],
+            "recitation": false
+        },
+        "RELGST1550": {
+            "className": "EAST ASIAN BUDDHISM",
+            "classNumber": "1550",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "The transmission of Buddhism to East Asia was a momentous development in the history of world cultures and religions. Not only did it precipitate major changes in the cultures of China, Korea and Japan, it also was attended by transformations within Buddhism itself. Beginning with an introduction to the basic concepts of Buddhism, this course examines the major doctrinal, meditative, devotional, and institutional traditions and themes within Chinese and Japanese Buddhism in historical perspective. Particular attention is paid to the problems of transmission of thought and practices from one culture to another and to the ways in which Buddhism changed to meet those challenges and make itself relevant to the members of East Asian societies. We strive to develop an awareness of how Chinese and Japanese Buddhism interacted with and helped to shape East Asian history as well as to cultivate sensitivity to and appreciation of East Asian Buddhism as a contribution to our understanding of the human experience.",
+            "id": "RELGST1550",
+            "major": "RELGST",
+            "prereq": [],
+            "recitation": false
+        },
+        "RELGST1560": {
+            "className": "RELIGION AND HEALING IN CHINA",
+            "classNumber": "1560",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course examines the major traditions and themes that constitute religion in China. The origins and development of Confucianism, Daoism, Buddhism, popular and family religion, and religion and the state are presented within an overall historical framework. As China becomes more and more central to the world's modern commodity culture, some have predicted a decline in traditional religious values and practices. In fact, the reverse is true: from Taiwan and Hong Kong through mainland China, increasing prosperity is resulting in an increased \"investment\" in religion. In addition to the study of religious ideas, practices, and institutions in premodern China, the course ends by looking at contemporary beliefs and practices and issues of politics, class, and gender. Our purpose is to gain some exposure to Chinese religious thought and practice, to identify dominant themes underlying Chinese values and behavior, and to explore the syncretic nature of religion in China as each tradition finds expression in and comes to influence other aspects of Chinese religion and culture. In this way, we hope to come to understand the critical role played by the various traditions in the unfolding of Chinese history and in the formation of the Chinese view of the world.",
+            "id": "RELGST1560",
+            "major": "RELGST",
+            "prereq": [],
+            "recitation": false
+        },
+        "RELGST1725": {
+            "className": "DEATH AND HEALTHCARE PROFESSIONS",
+            "classNumber": "1725",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "The American culture of the 20th and 21st centuries has been called, not death-defying, but death-denying.  It is often said that America is the only place in the world that treats death as optional.  Once upon a time, we couldn't have open, public conversations about breast cancer, because the word could not be uttered aloud.  In many places, it is just as hard today to have an open, public conversation about death and dying.  This phenomenon is not just a social more; it affects the practice of many professions and entire segments of our economy and society.  This course will explore our individual and cultural reactions to mortality, the ways in which dying in today's America is different from dying throughout history or elsewhere in the world, and the responses of a variety of professions, both within the field of healthcare and beyond, to their encounters with people in the various stages of dying.  Students will be asked, at turns, to be scientific, philosophical, clinical, analytical, and emotional in encountering the concepts and material presented here.  This should be a true interdisciplinary experience.",
+            "id": "RELGST1725",
+            "major": "RELGST",
+            "prereq": [],
+            "recitation": false
+        },
+        "RELGST1802": {
+            "className": "RELIGYINZ: RESEARCHING RELIGION IN PITTSBURGH",
+            "classNumber": "1802",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "In this course, students will get a taste (sometimes literally) of lived, religious diversity in the city of Pittsburgh.  In this experiential course, students will have a chance to visit some of the sites that Pittsburghers have made sacred, and learn more about the lives of religious Pittsburghers, past and present. In the process, students will learn about scholarly concepts like \"urban religion,\" \"lived religion,\" and \"material religion,\" and how to apply those ideas to the sacred spaces, objects, foods, and rituals of Pittsburgh.",
+            "id": "RELGST1802",
+            "major": "RELGST",
+            "prereq": [],
+            "recitation": false
+        },
+        "RELGST1803": {
+            "className": "CAPSTONE SEMINAR",
+            "classNumber": "1803",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "The senior thesis capstone seminar required of all graduating majors is offered annually in the Fall Term and is taught by rotating faculty with a different theme each year. Students research, write, and present a project of their own choosing based on the annual theme under the supervision of the seminar instructor and a research advisor from among our faculty. Permission of the DUS is required.",
+            "id": "RELGST1803",
+            "major": "RELGST",
+            "prereq": [],
+            "recitation": false
+        },
+        "RELGST1900": {
+            "className": "INTERNSHIP",
+            "classNumber": "1900",
+            "coreq": [],
+            "credits": "0",
+            "description": "",
+            "id": "RELGST1900",
+            "major": "RELGST",
+            "prereq": [],
+            "recitation": false
+        },
+        "RELGST1901": {
+            "className": "INDEPENDENT STUDY",
+            "classNumber": "1901",
+            "coreq": [],
+            "credits": "0",
+            "description": "",
+            "id": "RELGST1901",
+            "major": "RELGST",
+            "prereq": [],
+            "recitation": false
+        },
+        "RELGST1902": {
+            "className": "DIRECTED STUDY-UNDERGRADUATE",
+            "classNumber": "1902",
+            "coreq": [],
+            "credits": "0",
+            "description": "",
+            "id": "RELGST1902",
+            "major": "RELGST",
+            "prereq": [],
+            "recitation": false
+        },
+        "RELGST1903": {
+            "className": "DIRECTED RESEARCH-UNDERGRADUATE",
+            "classNumber": "1903",
+            "coreq": [],
+            "credits": "0",
+            "description": "",
+            "id": "RELGST1903",
+            "major": "RELGST",
+            "prereq": [],
+            "recitation": false
+        },
+        "RELGST1904": {
+            "className": "UNDERGRADUATE RESEARCH ASSISTANT",
+            "classNumber": "1904",
+            "coreq": [],
+            "credits": "0",
+            "description": "",
+            "id": "RELGST1904",
+            "major": "RELGST",
+            "prereq": [],
+            "recitation": false
+        },
+        "RELGST1905": {
+            "className": "UNDERGRADUATE TEACHING ASSISTANT",
+            "classNumber": "1905",
+            "coreq": [],
+            "credits": "0",
+            "description": "",
+            "id": "RELGST1905",
+            "major": "RELGST",
+            "prereq": [],
+            "recitation": false
+        }
+    },
+    "RUSS": {
+        "RUSS0090": {
+            "className": "RUSSIAN FAIRY TALES",
+            "classNumber": "0090",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course introduces students to Russian folklore through the oral genre of fairy tales so as to acquaint them with popular structures of thought underpinning modes of Russian behavior.  A significant component of the course will consist of visual and audio representations of scenes from fairy tales.",
+            "id": "RUSS0090",
+            "major": "RUSS",
+            "prereq": [],
+            "recitation": true
+        },
+        "RUSS0092": {
+            "className": "HONORS RUSSIAN FAIRY TALES",
+            "classNumber": "0092",
+            "coreq": [],
+            "credits": "0",
+            "description": "",
+            "id": "RUSS0092",
+            "major": "RUSS",
+            "prereq": [],
+            "recitation": false
+        },
+        "RUSS0101": {
+            "className": "ELEMENTARY RUSSIAN 1",
+            "classNumber": "0101",
+            "coreq": [],
+            "credits": "4 units",
+            "description": "A traditional four-skills course, this course meets with the main lecturer and with the drill instructor.  The student acquires basic skills in Russian pronunciation, speaking, listening, and writing, commensurate with the grammatical topics covered.  During the first semester these topics include, among others; the present and past tenses, the nominative, prepositional, and accusative cases. The course aims to go beyond the confines of the textbook readings and conversations and apply grammar and vocabulary to practical situations.",
+            "id": "RUSS0101",
+            "major": "RUSS",
+            "prereq": [],
+            "recitation": false
+        },
+        "RUSS0103": {
+            "className": "INTERMEDIATE RUSSIAN 1",
+            "classNumber": "0103",
+            "coreq": [],
+            "credits": "4 units",
+            "description": "The continuation of Russian 0020, this course completes the introduction to basic Russian grammatical structures.  The dative case, participles and gerunds, verbs of motion, and questions of verbal government are dealt with systematically.  Extra-textbook material introduces the student to samples of unedited real-language texts.  In developing spoken language ability, topics related to cross-cultural comparison receive prominence.",
+            "id": "RUSS0103",
+            "major": "RUSS",
+            "prereq": [],
+            "recitation": false
+        },
+        "RUSS0325": {
+            "className": "THE SHORT STORY",
+            "classNumber": "0325",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course will be devoted to reading short stories from 19th and 20th century Russian literature.  The authors include 19th century masters Pushkin, Gogol, Dostoevsky, Tolstoy, and Chekhov--to 20th century favorites Babel, Zamyatin and Zoshchenko, right up to contemporary writers Solzhenitsyn, Shalamov, Petrusheuskaya, Tolstaya, and Tokareuy.",
+            "id": "RUSS0325",
+            "major": "RUSS",
+            "prereq": [
+                "PREQ: ENG 0102 or ENGCMP (0002 or 0006 or 0020 or 0200 or 0203 or 0205 or 0207 or 0208 or 0210 or 0212) or ENGFLM 0210 or FP (0003 or 0006)\n*Applies to all WRIT Courses*"
+            ],
+            "recitation": false
+        },
+        "RUSS0400": {
+            "className": "ADVANCED RUSSIAN 1",
+            "classNumber": "0400",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This three-credit course develops third-year students' reading, writing, and oral skills through grammar review and readings.  Students will write compositions in Russian and will summarize and comment in Russian on their reading in addition to participating in grammar review exercises in class.",
+            "id": "RUSS0400",
+            "major": "RUSS",
+            "prereq": [],
+            "recitation": false
+        },
+        "RUSS0590": {
+            "className": "FORMATIVE MASTERPIECES",
+            "classNumber": "0590",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course will be devoted to reading formative literary masterpieces from the 19th century.  The authors include Tolstoy, Dostoevsky and Chekhov and others such as Pushkin, Gogol, Turgenev and Ostrovsky.",
+            "id": "RUSS0590",
+            "major": "RUSS",
+            "prereq": [],
+            "recitation": false
+        },
+        "RUSS0800": {
+            "className": "MASTERPIECES 19TH CENTURY RUSSIAN LITERATURE",
+            "classNumber": "0800",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course will focus on selected masterpieces of Russian literature of the nineteenth century.  The chosen works will be studied and discussed for their intrinsic literary value and as examples of main literary trends.  Readings will include short stories by Pushkin, Gogol, Leskov, and Chekov, as well as Gogol's novel \"Dead Souls\", Dostoevsky's \"Crime and Punishment\", and Tolstoy's \"War and Peace\".",
+            "id": "RUSS0800",
+            "major": "RUSS",
+            "prereq": [
+                "PREQ: ENG 0102 or ENGCMP (0002 or 0006 or 0020 or 0200 or 0203 or 0205 or 0207 or 0208 or 0210 or 0212) or ENGFLM 0210 or FP (0003 or 0006)\n*Applies to all WRIT Courses*"
+            ],
+            "recitation": false
+        },
+        "RUSS0811": {
+            "className": "MADNESS AND MADMEN IN RUSS CULTURE",
+            "classNumber": "0811",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course explores the theme of madness in Russian literature from its medieval period through our days.  The emphasis will be placed not only on literacy works, but also on painting, music, and cinema, as well as on nonfictional documents, such as Russian medical, judicial, political, and religious treatises and essays on madness.  Reading assignments will draw from theoretical (Foucault), cultural history (Billington, Rzhevsky), and literary sources.",
+            "id": "RUSS0811",
+            "major": "RUSS",
+            "prereq": [],
+            "recitation": false
+        },
+        "RUSS0850": {
+            "className": "EARLY RUSSIAN CULTURE",
+            "classNumber": "0850",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course introduces the student to the development of Russian culture from 988 through 1825, including Russia's religious, artistic, and ideological writings.  Readings will include the chronicles, vitae, apocrypha, epistolary polemics, secular tales, autobiography, and early prose fiction.  Visual art and architecture of the Kievan, Novgorod, and Romanov periods of Russian history provide a larger artistic context for the literary works.",
+            "id": "RUSS0850",
+            "major": "RUSS",
+            "prereq": [],
+            "recitation": false
+        },
+        "RUSS0870": {
+            "className": "RUSSIAN FILM:  EISENSTEIN AND COMPANY",
+            "classNumber": "0870",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "The course presents the history of Russian and Soviet films, filmmaking, and the film industry from the coronation of Tsar Nicholas II to the death of Stalin.",
+            "id": "RUSS0870",
+            "major": "RUSS",
+            "prereq": [
+                "PREQ: ENG 0102 or ENGCMP (0002 or 0006 or 0020 or 0200 or 0203 or 0205 or 0207 or 0208 or 0210 or 0212) or ENGFLM 0210 or FP (0003 or 0006)\n*Applies to all WRIT Courses*"
+            ],
+            "recitation": false
+        },
+        "RUSS1420": {
+            "className": "FOURTH-YEAR RUSSIAN 1",
+            "classNumber": "1420",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "The course provides an extensive practice in oral communication at the advanced level.  It includes discussions of readings on topics of general sociocultural interest, analysis of interviews with native speakers, and discussions of audio- and video-recordings.  Home essays, oral presentations, and mock interviews are designed to emphasize students' management of the Russian discourse.",
+            "id": "RUSS1420",
+            "major": "RUSS",
+            "prereq": [],
+            "recitation": false
+        },
+        "RUSS1900": {
+            "className": "RUSSIAN INTERNSHIP",
+            "classNumber": "1900",
+            "coreq": [],
+            "credits": "0",
+            "description": "",
+            "id": "RUSS1900",
+            "major": "RUSS",
+            "prereq": [],
+            "recitation": false
+        },
+        "RUSS1901": {
+            "className": "INDEPENDENT STUDY",
+            "classNumber": "1901",
+            "coreq": [],
+            "credits": "0",
+            "description": "",
+            "id": "RUSS1901",
+            "major": "RUSS",
+            "prereq": [],
+            "recitation": false
+        }
+    },
+    "SA": {
+        "SA0110": {
+            "className": "VISUAL THINKING",
+            "classNumber": "0110",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "Visual Thinking offers an introduction and insight into the process and practice of creating visual art. The subject is explored by making images supported by lectures, discussions, and critiques. Students are introduced to the dynamics of composition, relationships of form and content, principles of color, visual analysis, and creative problem-solving. The course also seeks to provide some experience with a variety of media, develop skills in observation and technique, and encourage personal engagement in solving visual problems.",
+            "id": "SA0110",
+            "major": "SA",
+            "prereq": [],
+            "recitation": false
+        },
+        "SA0120": {
+            "className": "PAINTING STUDIO 1",
+            "classNumber": "0120",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course is an introduction to oil painting that emphasizes color mixing, painting techniques, and composition.  The purpose of the course is to promote sensitivity to color interaction, advance technical and compositional skills, and provide a basis for creative growth and expression.",
+            "id": "SA0120",
+            "major": "SA",
+            "prereq": [],
+            "recitation": false
+        },
+        "SA0130": {
+            "className": "DRAWING STUDIO 1",
+            "classNumber": "0130",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course provides a comprehensive introduction to observational drawing. The coursework follows a sequence of exercises in various media that introduce basic drawing skills, techniques, and composition through observation and analysis of natural and manufactured forms. The course culminates with an introduction to the human figure.",
+            "id": "SA0130",
+            "major": "SA",
+            "prereq": [],
+            "recitation": false
+        },
+        "SA0140": {
+            "className": "SCULPTURE STUDIO 1",
+            "classNumber": "0140",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This hands-on course is an introduction to the practice of sculpture in contemporary and historical context. Using clay, plaster, wire, and cardboard, projects address material and technical processes as well as expressive, conceptual, and critical concerns.",
+            "id": "SA0140",
+            "major": "SA",
+            "prereq": [],
+            "recitation": false
+        },
+        "SA0170": {
+            "className": "DIGITAL STUDIO: CREATIVE CODING",
+            "classNumber": "0170",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This studio course is designed to be an introduction to the fundamentals of coding and digital circuits with a focus placed specifically on creative application (visual arts, sound/music, theater). In much the same way that introductory studio arts courses such as painting and sculpture are designed to explore materials, processes, tools and techniques, this course will take a parallel approach to technology as a medium. With a focus on digital systems of hardware and software, we will take a hands on approach to understand, explore and experiment with the core fundamentals of digital tools, materials, processes and ideas. As a grounding context for this course, we will look at the early artistic experiments on mainframe computers, which set the stage for the integrations of media and technology into contemporary creative practice (examples will cover visual arts, music, theater, poetry and others).  No prior experience with programming, electronic circuits, or art is required or expected. We will work with the Arduino open source microcontroller platform.",
+            "id": "SA0170",
+            "major": "SA",
+            "prereq": [],
+            "recitation": false
+        },
+        "SA0180": {
+            "className": "DIGITAL STUDIO: PHOTOGRAPHY 1",
+            "classNumber": "0180",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "Digital Studio:Photography introduces students to the technical, conceptual, and expressive potential of digital photography as an art form. Emphasis will be placed on creative use of digital cameras and software to conceptualize and translate ideas into meaningful images. Projects will be assigned in order to advance technical skills and develop new insights and approaches to image making. Students will begin to develop an individual voice as an artist by exploring and questioning the use of photography in their work; giving special attention to its conceptual and historical underpinnings, and its material form.",
+            "id": "SA0180",
+            "major": "SA",
+            "prereq": [],
+            "recitation": false
+        },
+        "SA1220": {
+            "className": "PAINTING STUDIO 2",
+            "classNumber": "1220",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course is a comprehensive exploration of painting techniques and concepts designed to expand awareness of the craft of painting and expose students to issues relevant to contemporary painting. Students have the option to work with either oil or acrylic paints. The course concludes with the development of a self-directed painting project.",
+            "id": "SA1220",
+            "major": "SA",
+            "prereq": [
+                "PREQ: SA 0120 and 0130"
+            ],
+            "recitation": false
+        },
+        "SA1230": {
+            "className": "DRAWING STUDIO 2",
+            "classNumber": "1230",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "Drawing Studio 2 builds on the knowledge, skills and ideas practiced in Drawing Studio 1 while introducing more advanced approaches to developing content and style in drawing. The coursework therefore is roughly divided between continued practice and development of essential aspects of drawing - such as mark, tone structure, light, space, form, composition and perspective - and assignments designed to spark student explorations of the conceptual and communicative possibilities of drawing. Students will continue to develop observational drawing skills including figure drawing during class meetings; projects will be concerned with technical and formal aspects of drawing while emphasizing ideas and expression. The class will include a diverse range of examples of drawing from art historical through contemporary practices.",
+            "id": "SA1230",
+            "major": "SA",
+            "prereq": [
+                "PREQ: SA 0110 and 0130"
+            ],
+            "recitation": false
+        },
+        "SA1240": {
+            "className": "SCULPTURE STUDIO 2",
+            "classNumber": "1240",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "A continuation of SA 0140, this course explores in greater depth the relationship between material, technique, process, and content in sculpture. Through expanded projects in plaster, wood, and metal, students deepen their experience and develop new skills, while interpreting assignments independently.",
+            "id": "SA1240",
+            "major": "SA",
+            "prereq": [
+                "PREQ: SA 0110 and 0140"
+            ],
+            "recitation": false
+        },
+        "SA1260": {
+            "className": "PRINT STUDIO: INTAGLIO",
+            "classNumber": "1260",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "Intaglio printmaking is a diverse process, offering artists a variety of approaches to create marks, experiment and communicate. This course focuses on making intaglio prints from copper plates. Basic intaglio printmaking techniques are explored through the use of dry point, hard ground line etching, and aquatint. Advanced techniques are explored as the semester progresses. Experimentation is encouraged while developing techniques as well as researching printmaking as a tool to challenge studio practice and content.",
+            "id": "SA1260",
+            "major": "SA",
+            "prereq": [
+                "PREQ: SA 0110 and 0130"
+            ],
+            "recitation": false
+        },
+        "SA1270": {
+            "className": "DIGITAL STUDIO: IMAGING",
+            "classNumber": "1270",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "Digital Studio: Imaging is a studio designed to immerse students in the investigation of digital art practices. Emphasis will be on the history and aesthetics of art and digital technology, including screen-based imaging practices, creative coding, and digital fabrication. Throughout the course, you will acquire and enhance technical skills, but the emphasis will be on the use of the computer as an art-making tool for your creative expression. Thoughtfulness, experimentation and curiosity is encouraged.",
+            "id": "SA1270",
+            "major": "SA",
+            "prereq": [
+                "PREQ: SA 0110 and 0180"
+            ],
+            "recitation": false
+        },
+        "SA1280": {
+            "className": "DIGITAL STUDIO: PHOTOGRAPHY 2",
+            "classNumber": "1280",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "Digital Studio: Photography 2 is centered around creating photographic images and an advanced inquiry into contemporary photographic practices and discourse. The course builds on the knowledge, skills, and ideas practiced in Digital Studio: Photography 1 while introducing advanced shooting techniques and an in-depth exploration of digital printing and modes of presentation. Early shooting exercises will ask you to experiment with different ways of seeing and thinking about image making and to discover uncharted photographic territory\u00e2\u0080\u0094both literally and psychologically. You will be expected to create new images weekly, generating contact sheets and prints on a regular basis. The second half of the semester will give you the opportunity to develop a final project where content and form is determined by your personal interests.",
+            "id": "SA1280",
+            "major": "SA",
+            "prereq": [
+                "PREQ: SA 0110 and SA 0180"
+            ],
+            "recitation": false
+        },
+        "SA1345": {
+            "className": "SCULPTURE STUDIO: INSTALLATION",
+            "classNumber": "1345",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This is an advanced sculpture course examining site specific and installation works as strategies in contemporary art.  Continually challenged by newly revised and emerging roles in the art world and society at large, the purpose of this studio course is to provide a forum for the discussion and exploration of issues playing a role in the contemporary critical debate.",
+            "id": "SA1345",
+            "major": "SA",
+            "prereq": [
+                "PREQ: SA 1240"
+            ],
+            "recitation": false
+        },
+        "SA1370": {
+            "className": "PREPARATION AND PRACTICE IN THE VISUAL ARTS",
+            "classNumber": "1370",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This is an upper-level writing course that is required for Studio Arts majors and may be taken by minors. Conducted in a seminar format, the course will inspect the wide range of career options in, and related to, the visual arts. Course topics and visitors will offer survival skills for maintaining a visual art practice, while course writings support preparations for professional opportunities.",
+            "id": "SA1370",
+            "major": "SA",
+            "prereq": [
+                "PREQ: SA 0110 and 0120 and 0130 and 0140; PLAN: Studio Arts (BA); PREQ: ENG 0102 or ENGCMP (0002 or 0006 or 0020 or 0200 or 0203 or 0205 or 0207 or 0208 or 0210 or 0212) or ENGFLM 0210 or FP (0003 or 0006)"
+            ],
+            "recitation": false
+        },
+        "SA1385": {
+            "className": "DIGITAL STUDIO: ANIMATION",
+            "classNumber": "1385",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "Digital Studio: Animation will introduce the concepts and skills involved in working with 2D digital animation - from pre to post-production. Each student will propose and undertake a final, self-designed project during the final four weeks of the term.  Major effort, time, imagination, productivity, and involvement are expected throughout the term.",
+            "id": "SA1385",
+            "major": "SA",
+            "prereq": [
+                "PREQ: (SA 0110 and 0180) or ENGFLM 0590 or FILMST 0001 or FMST 0800"
+            ],
+            "recitation": false
+        },
+        "SA1504": {
+            "className": "DIRECTED STUDY: STUDIO",
+            "classNumber": "1504",
+            "coreq": [],
+            "credits": "0",
+            "description": "",
+            "id": "SA1504",
+            "major": "SA",
+            "prereq": [],
+            "recitation": false
+        },
+        "SA1600": {
+            "className": "SENIOR SEMINAR",
+            "classNumber": "1600",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "Senior Seminar is a course that develops critical skills necessary to take your work to the next level. Throughout the course you will develop a body of work, engage in robust discussions about contemporary issues and critique your projects. Finally, you will collaborate to create a pop-up exhibition to present your work. Additionally, students will spend time off-campus meeting with artists and exploring art in the Greater Pittsburgh region.",
+            "id": "SA1600",
+            "major": "SA",
+            "prereq": [
+                "PLAN: Studio Arts; LVL: Senior"
+            ],
+            "recitation": false
+        },
+        "SA1900": {
+            "className": "INTERNSHIP",
+            "classNumber": "1900",
+            "coreq": [],
+            "credits": "0",
+            "description": "",
+            "id": "SA1900",
+            "major": "SA",
+            "prereq": [],
+            "recitation": false
+        },
+        "SA1902": {
+            "className": "DIRECTED RESEARCH",
+            "classNumber": "1902",
+            "coreq": [],
+            "credits": "0",
+            "description": "",
+            "id": "SA1902",
+            "major": "SA",
+            "prereq": [],
+            "recitation": false
+        },
+        "SA1904": {
+            "className": "UNDERGRADUATE TEACHING ASSISTANTSHIP",
+            "classNumber": "1904",
+            "coreq": [],
+            "credits": "0",
+            "description": "",
+            "id": "SA1904",
+            "major": "SA",
+            "prereq": [],
+            "recitation": false
+        }
+    },
+    "SERCRO": {
+        "SERCRO0010": {
+            "className": "ELEMENTARY BOSNIAN/CROATIAN/SERBIAN 1",
+            "classNumber": "0010",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This is a four-skills (listening, speaking, reading, writing) practical introduction to the Bosnian/Croatian/Serbian languages.",
+            "id": "SERCRO0010",
+            "major": "SERCRO",
+            "prereq": [],
+            "recitation": false
+        },
+        "SERCRO0030": {
+            "className": "INTERMEDIATE BOSNIAN/CROATIAN/SERBIAN 3",
+            "classNumber": "0030",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This is a four-skills (listening, speaking, reading, writing) practical introduction to the Bosnian/Croatian/Serbian languages, first-semester, second-year.",
+            "id": "SERCRO0030",
+            "major": "SERCRO",
+            "prereq": [],
+            "recitation": false
+        },
+        "SERCRO0400": {
+            "className": "ADVANCED BOSNIAN/CROATIAN/SERBIAN 5",
+            "classNumber": "0400",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course (third-year first-semester Bosnian/Croatian/Serbian) is a systematic review of grammar and phraseology, which develops the student's vocabulary, grammar and communicative competence.",
+            "id": "SERCRO0400",
+            "major": "SERCRO",
+            "prereq": [],
+            "recitation": false
+        },
+        "SERCRO1901": {
+            "className": "INDEPENDENT STUDY",
+            "classNumber": "1901",
+            "coreq": [],
+            "credits": "0",
+            "description": "",
+            "id": "SERCRO1901",
+            "major": "SERCRO",
+            "prereq": [],
+            "recitation": false
+        }
+    },
+    "SLAV": {
+        "SLAV0660": {
+            "className": "SCI-FI:  EAST AND WEST",
+            "classNumber": "0660",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course compares Slavic and Anglophone science fiction to assess how a given culture's dominant values are articulated in a popular genre that enjoys different status in East and West.  Those values emerge in works that imaginatively posit \"fantastic\" situations rooted in biological, spatial, and temporal explorations beyond those verified by science.  On the basis of films, film clips, TV shows, stories, novellas, and novels we shall discuss such topics as utopia, progress, human perfectibility, the limits of science, and the nature of knowledge.",
+            "id": "SLAV0660",
+            "major": "SLAV",
+            "prereq": [],
+            "recitation": false
+        },
+        "SLAV0880": {
+            "className": "VAMPIRE: BLOOD AND EMPIRE",
+            "classNumber": "0880",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course examines the phenomenon of vampirism in verbal and visual texts from different time periods in various cultures (Russia, Poland, France, England, America).  We will analyze stories, novels, and films focusing on vampires from a variety of critical perspectives, contextualizing the works in the cultures that produced them.",
+            "id": "SLAV0880",
+            "major": "SLAV",
+            "prereq": [],
+            "recitation": false
+        },
+        "SLAV1225": {
+            "className": "BEHIND BARS: CROSS CULTURAL REPRESENTATIONS OF PRISON IN THE 20TH CENTURY",
+            "classNumber": "1225",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course examines cultural works produced in and about prison in the 20th century, addressing the function of art within the context of incarceration.  In structure the course is composed of three parts: prison writings and criminal culture in America, memoirs from the forced-labor camps of the soviet gulag, and narratives of holocaust concentration camps. This structure allows for a comparison of cultures-- American, Russian, and European--as well as identities-- racial, gender, and religious.",
+            "id": "SLAV1225",
+            "major": "SLAV",
+            "prereq": [],
+            "recitation": false
+        },
+        "SLAV1720": {
+            "className": "UNDERGRADUATE TEACHING",
+            "classNumber": "1720",
+            "coreq": [],
+            "credits": "1 - 3 units",
+            "description": "This is an elective course for students who wish to gain teaching experience under the supervision of the Slavic department faculty.",
+            "id": "SLAV1720",
+            "major": "SLAV",
+            "prereq": [],
+            "recitation": false
+        },
+        "SLAV1901": {
+            "className": "INDEPENDENT STUDY",
+            "classNumber": "1901",
+            "coreq": [],
+            "credits": "0",
+            "description": "",
+            "id": "SLAV1901",
+            "major": "SLAV",
+            "prereq": [],
+            "recitation": false
+        }
+    },
+    "SLOVAK": {
+        "SLOVAK0010": {
+            "className": "ELEMENTARY SLOVAK 1",
+            "classNumber": "0010",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This four-skills language course introduces the student to the fundamentals of Slovak pronunciation and speaking, reading, writing and listening, with emphasis on practical conversation.  The present tense of verbs, the plural of nouns, and the gradation of adjectives and adverbs is covered.",
+            "id": "SLOVAK0010",
+            "major": "SLOVAK",
+            "prereq": [],
+            "recitation": false
+        },
+        "SLOVAK0030": {
+            "className": "INTERMEDIATE SLOVAK 3",
+            "classNumber": "0030",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "The continuation of Slovak 0020, this course focuses more on written Slovak and developing listening comprehension than in the first-year course.  Attention is paid to developing a good control of basic idioms, and to the formation of participles.",
+            "id": "SLOVAK0030",
+            "major": "SLOVAK",
+            "prereq": [],
+            "recitation": false
+        },
+        "SLOVAK0400": {
+            "className": "ADVANCED SLOVAK 1",
+            "classNumber": "0400",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course extends grammatical and conversational skills of those with an intermediate knowledge of Slovak.  The course also covers aspects of Slovak culture and makes extensive use of contemporary texts from Slovakia.  The students also learn elementary translation skills.  Emphasis is put on fluency in conversation and on comprehension of unedited original reading material from newspapers and magazines.",
+            "id": "SLOVAK0400",
+            "major": "SLOVAK",
+            "prereq": [],
+            "recitation": false
+        },
+        "SLOVAK1901": {
+            "className": "INDEPENDENT STUDY",
+            "classNumber": "1901",
+            "coreq": [],
+            "credits": "0",
+            "description": "",
+            "id": "SLOVAK1901",
+            "major": "SLOVAK",
+            "prereq": [],
+            "recitation": false
+        }
+    },
+    "SOC": {
+        "SOC0002": {
+            "className": "SOCIOLOGY OF EVERYDAY LIFE",
+            "classNumber": "0002",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course takes as its object of inquiry the ordinary, familiar, routine, and unremarkable stuff of everyday life, beginning from the premise that, rather than being insignificant or inconsequential, what happens in everyday life crucially structures the world. As well, daily life is structured by larger social phenomena. As such, the study of everyday life provides a lens through which to explore such themes as the workings and effects of power, social change or the lack thereof, social inequality, quiescence and resistance, ideology, identity and difference, norms and normativity, subject formation and subjectivity, and practices of meaning making. Our mode of analysis will be to bring sociological concepts and theory to the sites and practices of everyday life to refine our sociological thinking and our understandings of the world. Along with exposing students to different schools of thought with regard to the study of everyday life, this course will provide students with the necessary tools to defamiliarize and denaturalize that which might seem natural, obvious, and axiomatic. It also is designed to help students think about the relationship between social processes and the individual and about what is at stake in understanding how they mutually affect one another in any given context.",
+            "id": "SOC0002",
+            "major": "SOC",
+            "prereq": [],
+            "recitation": true
+        },
+        "SOC0005": {
+            "className": "SOCIETIES",
+            "classNumber": "0005",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This introductory course is devoted to furthering an understanding of life in America today by comparing it to a variety of societies worldwide.  Among the societal aspects explored; political and economic systems, cultural styles, major religions and religious trends.",
+            "id": "SOC0005",
+            "major": "SOC",
+            "prereq": [],
+            "recitation": true
+        },
+        "SOC0007": {
+            "className": "SOCIAL PROBLEMS",
+            "classNumber": "0007",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "The major aims of this course are to understand the nature of important social problems in American society and analyze their causes and consequences.  The two competing perspectives, one, that social problems are created when individuals fail to conform to societal norms, and two, that social problems are caused when institutions fail to meet changing needs and aspirations of individuals will be used in our analysis.  Future trends and policy alternatives toward amelioration will be examined.",
+            "id": "SOC0007",
+            "major": "SOC",
+            "prereq": [],
+            "recitation": true
+        },
+        "SOC0010": {
+            "className": "INTRODUCTION TO SOCIOLOGY",
+            "classNumber": "0010",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course introduces the student to the discipline of sociology, its development, theories, major findings, and to the sociological interpretation of modern society. Emphasis will be given to the importance of careful empirical investigation for the understanding of recent social and cultural changes.  Students should be prepared to encounter basic issues in sociological method and in theory; an inclination toward systematic and abstract reasoning will help.",
+            "id": "SOC0010",
+            "major": "SOC",
+            "prereq": [],
+            "recitation": true
+        },
+        "SOC0140": {
+            "className": "CLASSICAL SOCIOLOGICAL THEORIES",
+            "classNumber": "0140",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course will deal with the foundations of modern sociological theory through a study of major social theorists of the 19th and early 20th centuries.",
+            "id": "SOC0140",
+            "major": "SOC",
+            "prereq": [],
+            "recitation": false
+        },
+        "SOC0150": {
+            "className": "SOCIAL THEORY",
+            "classNumber": "0150",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "The aim of this course is to provide a survey of major developments in sociological theory in recent times.  The classic background for these developments is included as part of the course.  Lectures, readings and discussions help the student to acquire a grasp of the significance of theoretical analysis in sociology and of basic sociological problems addressed by a variety of theorists.",
+            "id": "SOC0150",
+            "major": "SOC",
+            "prereq": [],
+            "recitation": false
+        },
+        "SOC0230": {
+            "className": "SOCIAL RESEARCH METHODS",
+            "classNumber": "0230",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "Students begin to learn to do social research in this course.  They learn how to define an appropriate problem, select an appropriate method, collect and analyze data, discuss their results, and draw conclusions.  Students study both quantitative and qualitative methods.",
+            "id": "SOC0230",
+            "major": "SOC",
+            "prereq": [],
+            "recitation": false
+        },
+        "SOC0317": {
+            "className": "GLOBALIZATION",
+            "classNumber": "0317",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "The aim is to analyze the dynamics of civilization in today's interconnected world.  How is people's social and cultural life shaped by their position in the world, by local traditions and distant forces?  How have the independently coexisting civilizations of earlier centuries become incorporated into a global civilization in which colonial empires and the communist regime have given way to wider democracy and a capitalist regime with global dynamics?  How is Western culture (beliefs, values and symbols) disseminated and embraced, modified or resisted in non-Western societies?",
+            "id": "SOC0317",
+            "major": "SOC",
+            "prereq": [],
+            "recitation": true
+        },
+        "SOC0432": {
+            "className": "WEALTH AND POWER",
+            "classNumber": "0432",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "In this course we aim to understand the fundamental structure and workings of modern capitalist society.  We will examine the distribution of wealth, income, and power in both the US and globally, and consider the notions of democracy and imperialism in the context of what we broadly call, \"globalization\".  Can we have political equality in societies with high degrees of economic inequality?  Are corporations too powerful?  Whose side does government usually take  the little guys' or the corporations'?  Why?  How is it possible that the richest nation in the world also has more poverty than any other \"democratic\" country?  We will explore these and many other topics from the macro- to the micro- levels of analysis",
+            "id": "SOC0432",
+            "major": "SOC",
+            "prereq": [],
+            "recitation": false
+        },
+        "SOC0438": {
+            "className": "SOCIOLOGY OF THE FAMILY",
+            "classNumber": "0438",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course introduces students to the sociological perspective on the family and analyzes how the structure and nature of family life are shaped by larger historical and social forces.  We will look at how changes in the economy and technology affect the family; how ideas concerning gender roles affect male/female relationships and the socialization of children; how race, ethnicity, and class shape family life; and the wide variety of family forms, historical and contemporary.",
+            "id": "SOC0438",
+            "major": "SOC",
+            "prereq": [],
+            "recitation": false
+        },
+        "SOC0460": {
+            "className": "RACE AND ETHNICITY",
+            "classNumber": "0460",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This is a course presenting the central sociological interpretations of majority/minority relations.  The course begins with a consideration of minorities around the world. With world minorities as a frame of reference, the course turns to the United States and its special opportunities and problems.",
+            "id": "SOC0460",
+            "major": "SOC",
+            "prereq": [],
+            "recitation": false
+        },
+        "SOC0465": {
+            "className": "SOCIOLOGY OF SPORTS",
+            "classNumber": "0465",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course examines sports from a political economy perspective, emphasizing wealth and power in this social institution.  We will do a critical examination of the role of sports in society, amateur and professional sports and how they affect our lives.  In the process, we inevitably see how sports affects how we see ourselves as a society and as individuals, including notions of class, race and gender among other things.  The focus of my course is the political economy of sports  including the peculiar American NCAA and Power 5 college athletics, and of course the colossal sphere of professional sports.  This analysis will reveal all of the traits upon which this institution sits capitalism.  That means we will see exploitation, profit and power, all in the gladiators arena of sports.",
+            "id": "SOC0465",
+            "major": "SOC",
+            "prereq": [],
+            "recitation": false
+        },
+        "SOC0471": {
+            "className": "DEVIANCE AND SOCIAL CONTROL",
+            "classNumber": "0471",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course raises questions about what is \"deviant\" and how certain actions and beliefs come to be considered deviant. It also raises questions concerning the social, structural and cultural determinants of the decision to view something as \"deviant\" and in need of \"control\".  The course explores changes in the definition of behavior which lead the same behaviors to be considered 'sins', 'crimes', 'illnesses', and 'alternative life-styles'.",
+            "id": "SOC0471",
+            "major": "SOC",
+            "prereq": [],
+            "recitation": true
+        },
+        "SOC0477": {
+            "className": "MEDICAL SOCIOLOGY",
+            "classNumber": "0477",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This is a course on socio-cultural aspects of health, illness, disease and (medical) treatment in American society. The historical transformation of American medicine into a powerful sovereign profession with unparalleled authority, autonomy and control over all aspects of health and illness will be examined.  On the basis of this historical survey, recent empirical studies of distribution of health, disease and medical care will be examined as well as specific substantive issues and contemporary debates.",
+            "id": "SOC0477",
+            "major": "SOC",
+            "prereq": [],
+            "recitation": true
+        },
+        "SOC1002": {
+            "className": "SOCIOLOGY HONORS SEMINAR",
+            "classNumber": "1002",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "The search for identities is an inseparable component of the postmodern \"global\" world. Individual and collective identities are in a constant state of formation and change. Using comparative case studies, we will examine various kinds of identity construction and transformation, including identities of race, ethnicity, nation and gender. Through the application of sociological insights, we hope to improve our understanding of these complicated processes",
+            "id": "SOC1002",
+            "major": "SOC",
+            "prereq": [
+                "PREQ: (SOC 0150 and 0230); PLAN: Sociology(BA); CUM GPA '3.25'"
+            ],
+            "recitation": false
+        },
+        "SOC1319": {
+            "className": "IMMIGRATION",
+            "classNumber": "1319",
+            "coreq": [],
+            "credits": "3 units",
+            "description": " ",
+            "id": "SOC1319",
+            "major": "SOC",
+            "prereq": [
+                "PREQ: ENG 0102 or ENGCMP (0002 or 0006 or 0020 or 0200 or 0203 or 0205 or 0207 or 0208 or 0210 or 0212) or ENGFLM 0210 or FP (0003 or 0006)\n*Applies to all WRIT Courses*"
+            ],
+            "recitation": false
+        },
+        "SOC1324": {
+            "className": "SOCIAL PROBLEMS AND MORAL CRUSADES",
+            "classNumber": "1324",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "Social problems and moral crusades (SOC 1324) examines how and why certain issues become recognized as \"social problems\" and sometimes become the subject of \"moral crusades.\"  Using a social constructionist approach, the course examines conflicts over how issues are defined and periods of intense media and public interest in particular problems.  We will look at some new issues that are becoming recognized as social problems and we will analyze changes over time in long-standing conflicts, examining the origins of these conflicts, the reasons why they persist, and their likely outcomes.",
+            "id": "SOC1324",
+            "major": "SOC",
+            "prereq": [],
+            "recitation": false
+        },
+        "SOC1325": {
+            "className": "TWO CENTURIES OF DEMOCRATIZATION",
+            "classNumber": "1325",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "Democratization has advanced in modern history in several great multicontinental bursts from the late eighteenth century to the present.  This course will explore why certain historical eras are such moments of democratization and how the very conception of democracy has developed.",
+            "id": "SOC1325",
+            "major": "SOC",
+            "prereq": [],
+            "recitation": false
+        },
+        "SOC1365": {
+            "className": "RACE, CLASS, AND GENDER",
+            "classNumber": "1365",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This comparative course draws together a multidisciplinary set of readings to examine the intersection of race, gender and social and economic development in Latin America and the USA.  Readings include theories of inequality and case studies.",
+            "id": "SOC1365",
+            "major": "SOC",
+            "prereq": [],
+            "recitation": false
+        },
+        "SOC1386": {
+            "className": "FRENCH REVOLUTION",
+            "classNumber": "1386",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This course will consider various theories of the social sources of revolutions and evaluate them in the light of historical research.",
+            "id": "SOC1386",
+            "major": "SOC",
+            "prereq": [],
+            "recitation": false
+        },
+        "SOC1414": {
+            "className": "SPECIAL TOPICS",
+            "classNumber": "1414",
+            "coreq": [],
+            "credits": "0",
+            "description": "",
+            "id": "SOC1414",
+            "major": "SOC",
+            "prereq": [],
+            "recitation": false
+        },
+        "SOC1415": {
+            "className": "RELIGIOUS DIVERSITY",
+            "classNumber": "1415",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "What is the best way to accommodate religious and cultural diversity within a nation-state and in civil society? How should individual rights to practice religion be balanced with communal needs? Should freedom from religion be protected as much or more than freedom of religion? These are pressing contemporary issues in many countries, including the United States, but issues of religious diversity and questions of how - and even whether- to tolerate religious minorities have a long history. In this course, we will examine the toleration of minority religions in particular historical settings, and the issues and problems (both doctrinal and social/political) that societies grappled with as they confronted diverse religious landscapes.  We will also use these historical precedents as a lens to examine contemporary examples of religious pluralism, diversity, and conflict. Case studies will mainly be drawn from pre-modern Europe and modern Europe and North America, but we will also look at Mughal and modern India and discuss religion in pre-modern China.",
+            "id": "SOC1415",
+            "major": "SOC",
+            "prereq": [],
+            "recitation": false
+        },
+        "SOC1445": {
+            "className": "SOCIETY AND ENVIRONMENT",
+            "classNumber": "1445",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "The state of the environment reaches the pages of our newspapers every day.  How did we get to this state?  Throughout history, human societies have made use of the environment as all human activity is dependent on through puts of energy and materials.  The course will seek to understand the social, economic, and political processes as they lead to impacts on the environment.  Far from being 'out there', the state of the environment is integrally related to the ways societies work.",
+            "id": "SOC1445",
+            "major": "SOC",
+            "prereq": [
+                "PREQ: ENG 0102 or ENGCMP (0002 or 0006 or 0020 or 0200 or 0203 or 0205 or 0207 or 0208 or 0210 or 0212) or ENGFLM 0210 or FP (0003 or 0006)\n*Applies to all WRIT Courses*"
+            ],
+            "recitation": false
+        },
+        "SOC1450": {
+            "className": "HEALTH AND ILLNESS",
+            "classNumber": "1450",
+            "coreq": [],
+            "credits": "3 units",
+            "description": "This upper-level course investigates selected concepts in health, illness and medical care. We will examine the impact of medicalization, stratification, and the transformation of healthcare provision.",
+            "id": "SOC1450",
+            "major": "SOC",
+            "prereq": [],
+            "recitation": false
+        },
+        "SOC1500": {
+            "className": "CAPSTONE RESEARCH PRACTICUM FOR MAJORS",
+            "classNumber": "1500",
+            "coreq": [],
+            "credits": "3 units",
+            "description": " ",
+            "id": "SOC1500",
+            "major": "SOC",
+            "prereq": [
+                "PREQ: (SOC 0150 or 0140) and 0230"
+            ],
+            "recitation": false
+        },
+        "SOC1900": {
+            "className": "INTERNSHIP",
+            "classNumber": "1900",
+            "coreq": [],
+            "credits": "0",
+            "description": "",
+            "id": "SOC1900",
+            "major": "SOC",
+            "prereq": [],
+            "recitation": false
+        },
+        "SOC1901": {
+            "className": "INDEPENDENT STUDY",
+            "classNumber": "1901",
+            "coreq": [],
+            "credits": "0",
+            "description": "",
+            "id": "SOC1901",
+            "major": "SOC",
+            "prereq": [],
+            "recitation": false
+        },
+        "SOC1902": {
+            "className": "DIRECTED READING",
+            "classNumber": "1902",
+            "coreq": [],
+            "credits": "0",
+            "description": "",
+            "id": "SOC1902",
+            "major": "SOC",
+            "prereq": [],
+            "recitation": false
+        },
+        "SOC1903": {
+            "className": "DIRECTED RESEARCH",
+            "classNumber": "1903",
+            "coreq": [],
+            "credits": "0",
+            "description": "",
+            "id": "SOC1903",
+            "major": "SOC",
+            "prereq": [],
+            "recitation": false
+        }
     }
 }

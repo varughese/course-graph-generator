@@ -9,8 +9,10 @@ class MajorGraph extends Component {
 		node.label = `<h1>${node.id}</h1>`;
 		node.labelType = 'html';
 		return node;
-	})
-	const links = courses.links;
+	}).filter(node => Number(node.id.substring(3)) < 1551);
+	const links = courses.links.filter(({source, target}) => {
+		return !Number(source.substring(3)) < 1551 && Number(target.substring(3)) < 1551;
+	});
 
 	return (
 		<DagreGraph
@@ -20,7 +22,7 @@ class MajorGraph extends Component {
 				rankdir: 'TB',
 				align: 'UL',
 				ranker: 'tight-tree',
-				edgesep: 30,
+				edgesep: 4,
 				ranksep: 120
 			}}
 			width={window.innerWidth}
